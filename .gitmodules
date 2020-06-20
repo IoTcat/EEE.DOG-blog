@@ -1,0 +1,3 @@
+[submodule "themes/kayo"]
+	path = themes/kayo
+	url = git@github.com:iotcat/kayo
