@@ -95,6 +95,17 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: kayo
 
+
+# search
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
