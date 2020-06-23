@@ -1,9 +1,10 @@
 ---
 title: Two Fundamental Demands of Human Beings
-date: 2020-06-16 15:43:54
+date: 2018-12-23
 categories:
 - thoughts
 tags:
+- society
 ---
 人类的需求可以总结为两类，创造需求的需求，与解决需求的需求。
 

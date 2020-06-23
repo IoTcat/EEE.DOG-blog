@@ -1,8 +1,10 @@
+---
 title: 中美贸易战-解
-date: 2020-06-16 15:43:54
+date: 2019-05-12
 categories:
-- tech
+- thoughts
 tags:
+- war
 ---
 中美贸易战的解不在美国，而是在我们自己身上。
 

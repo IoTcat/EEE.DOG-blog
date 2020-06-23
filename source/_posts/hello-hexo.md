@@ -1,16 +1,10 @@
 ---
-title: hello hexo
+title: Hello Hexo
 date: 2020-06-16 15:43:54
+categories:
+- tech
 tags:
+- hexo
 ---
-## 神奇的事情
-神奇的事情开始发售了
 
-
-![](https://api.yimian.xyz/img)
-
-```js
-const home = cooo;
-
-var ee = 1;
-```
+将blog从Typecho迁移到了Hexo。

@@ -1,9 +1,11 @@
 ---
 title: Centos7下 Nginx 配置ssl证书自动续期
-date: 2020-06-16 15:43:54
+date: 2019-03-09
 categories:
 - tech
 tags:
+- centos7
+- ssl
 ---
 断断续续玩web已经一年了，一些之前从腾讯云申的TrustAsia证书已经陆陆续续开始过期，很方..于是开始尝试申请Let's Encrypt的免费证书，并实现自动续期|´・ω・)ノ
 

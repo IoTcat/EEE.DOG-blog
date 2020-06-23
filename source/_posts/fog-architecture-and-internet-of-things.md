@@ -1,9 +1,12 @@
 ---
 title: Fog Architecture and Internet of Things
-date: 2020-06-16 15:43:54
+date: 2018-12-17
 categories:
 - thoughts
 tags:
+- iot
+- internet
+- fog
 ---
 In the past few decades, Internet has been rapidly expanding and it plays an increasingly important role in people’s life. After the involvement of nearly all humans on the earth [1], developers, inevitably, expected to make more things available for the internet, which then generated the idea of the Internet of Things (IoT). Regrettably, in the case that a considerable number of things connect to the internet, its current architecture seems not to be a so efficient solution for IoT. Bonomi et al. [2] from Cisco firstly noticed this issue and they then put forward a revolutionary concept of Fog to satisfy the access of a surging number and variety of devices in the coming IoT era. This essay will argue that the Fog concept can have considerable impact on promoting IoT construction.
 

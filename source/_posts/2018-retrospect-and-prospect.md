@@ -1,9 +1,10 @@
 ---
 title: 2018 – Retrospect and Prospect
-date: 2020-06-16 15:43:54
+date: 2019-01-08
 categories:
-- thoughts
+- life
 tags:
+- summary
 ---
 白驹过隙，挥别2018，走向2019..
 

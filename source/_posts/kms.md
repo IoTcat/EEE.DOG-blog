@@ -1,13 +1,20 @@
+---
 title: 一键激活win10
-date: 2020-06-16 15:43:54
+date: 2020-02-07
 categories:
 - tech
 tags:
+- kms
+- win10
 ---
+
 一键激活win10家庭版，专业版，企业版，教育版 φ(￣∇￣o)
 
-
 <!--more-->
+
+
+<!--![](https://api.yimian.xyz/img/?path=wallpaper/img_2020-02-05_1920x1080_96_background_normal.jpg)-->
+
 
 ## 方法一(自动安装)
 

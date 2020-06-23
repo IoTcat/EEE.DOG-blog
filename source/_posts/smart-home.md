@@ -1,8 +1,16 @@
+---
 title: 在家中部署智慧家庭系统
-date: 2020-06-16 15:43:54
+date: 2019-07-28
 categories:
 - tech
 tags:
+- iot
+- smart-home
+- LoRa
+- WiFi
+- Arduino
+- ESP8266
+- MQTT
 ---
 基于Home Assisstant搭建综合家庭照明系统，多媒体系统，水流系统的智慧家庭。技术点：天猫精灵交互，LoRa通信，MQTT协议，frp内网穿透，NAS存储，拨动开关电路改造。
 

@@ -1,8 +1,12 @@
-title: 意大利申根签攻略
-date: 2020-06-16 15:43:54
+---
+title: 英国意大利申根签攻略
+date: 2019-10-30
 categories:
-- tech
+- travel
 tags:
+- uk
+- italy
+- visa
 ---
 在英国留学，圣诞去欧洲旅游，DIY了意大利申根签证。现在游完归来，总结一份申根签攻略。
 

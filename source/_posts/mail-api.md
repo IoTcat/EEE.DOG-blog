@@ -1,9 +1,11 @@
 ---
 title: 自动发邮件API
-date: 2020-06-16 15:43:54
+date: 2019-03-22
 categories:
 - tech
 tags:
+- api
+- mail
 ---
 重整自己先前的mail模块，顺便封装了一个API出来，欢迎大家调用~
 

@@ -1,9 +1,10 @@
 ---
 title: C++建库中遇到的坑
-date: 2020-06-16 15:43:54
+date: 2019-02-24 
 categories:
 - tech
 tags:
+- cpp
 ---
 
 由于学校课程安排，作为一只电气狗第一次正经的开始搞Cpp ::aru:shy:: 

@@ -1,11 +1,17 @@
+---
 title: 部署新型冠状病毒API
-date: 2020-06-16 15:43:54
+date: 2020-02-04
 categories:
 - tech
 tags:
+- Covid-19
+- API
 ---
 一分钟快速部署你自己的新型冠状病毒API ୧(๑•̀⌄•́๑)૭
 <!--more-->
+
+
+
 
 # coro-api
 新型冠状病毒 实时数据 api   

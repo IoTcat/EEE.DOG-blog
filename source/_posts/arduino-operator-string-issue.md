@@ -1,8 +1,11 @@
+---
 title: Arduino中[]=重载导致的String调用问题
-date: 2020-06-16 15:43:54
+date: 2019-07-21
 categories:
 - tech
 tags:
+- Arduino
+- cpp
 ---
 最近在物联网开发中使用Arduino搭建LoRa网关和节点，发现在调用String时总遇到一些奇奇怪怪的现象。经过排查，发现是由于其它地方[]=运算符的重载所导致。
 

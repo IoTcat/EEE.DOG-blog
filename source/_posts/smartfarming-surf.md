@@ -1,8 +1,14 @@
+---
 title: 2019 SURF SmartFarming Proj 架构说明
-date: 2020-06-16 15:43:54
+date: 2019-07-26
 categories:
 - tech
 tags:
+- LoRa
+- smart-farming
+- iot
+- Arduino
+- MQTT
 ---
 本文详细介绍了XJTLU大学2019暑期科研SmartFarming Proj物联网架构的设计思路，实施情况以及缺陷反思。
 

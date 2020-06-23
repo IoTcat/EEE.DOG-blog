@@ -1,9 +1,12 @@
-title: 旅行支票兑换攻略
-date: 2020-06-16 15:43:54
+title: 欧洲旅行支票兑换攻略
+date: 2020-02-09
 categories:
-- tech
+- travel
 tags:
+- traveler's cheque
+- Europe
 ---
+<!--![](https://api.yimian.xyz/img/?path=imgbed/img_6ae04a26_721x412_8_null_normal.png)-->
 之前去欧洲旅游办签证，由于没有三个月的银行流水，不得已购买了旅行支票作为资金证明。可是到了欧洲才发现旅行支票很难使用，如果不了解行情会被骗收15%-20%的手续费。这篇Blog记录了我们发现的兑换旅行支票的坑和Tips！
 
 

@@ -1,8 +1,13 @@
+---
 title: Liverpool 学生公寓条件调研
-date: 2020-06-16 15:43:54
+date: 2019-10-10
 categories:
-- tech
+- life
 tags:
+- uk
+- liverpool
+- accomodation
+- investigation
 ---
 为了更清晰更直观的选择出明年居住的公寓，本文汇总了网络上对各公寓的评价信息，供决策参考。
 
@@ -13,7 +18,12 @@ tags:
 [scode type="yellow"]持续更新中...[/scode]
 [scode type="blue"]望大家能够**补充**更多房源，以便调查[/scode]
 
-## Dover Court
+
+**所有步行距离以Guild为中心！！**   
+
+
+
+## Dover Court (我们的最终选择)
 
 + `步行距离`: 8 min (西北)
 + `google地图`: [Dover Court](https://www.google.com/maps/dir/53.4060943,-2.9635088/dover+court/@53.4073115,-2.9710734,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x487b2117f02af11d:0xa8248cb9d60eb03d!2m2!1d-2.9700754!2d53.408129)
@@ -38,7 +48,7 @@ tags:
 ## Apollo Court
 
 + `步行距离`: 11 min (西北)
-+ `同学反映`: 不安静(雷嘉恒)
++ `同学反映`: 不安静(老雷)
 
 ## Capital Gate
 
@@ -96,12 +106,20 @@ tags:
 ## X1 The Edge
 
 + `步行距离`: 12 min (西北)
++ `其它`: 快递可以寄到Cambridge Court (梁斌)
 
 ## Cambridge Court
 
 + `步行距离`: 8 min (南)
 + `google地图`: [Cambridge Court](https://www.google.com/maps/dir/53.4060907,-2.963637/Cambridge+Ct,+Liverpool/@53.4043312,-2.9678762,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x487b2118d373aed7:0x8824353bb8192424!2m2!1d-2.967738!2d53.4026346)
++ `缺点`: 隔音不好，地毯潮湿，条件差
 
 ## Vita Student Liverpool
 
 + `步行距离`: 21 min (西)
+
+
+## Liberty Park
+
++ `缺点`: 一楼二楼隔音不好
++ `优点`: 回字形楼中间有一个小花园(娇娇，欣怡)

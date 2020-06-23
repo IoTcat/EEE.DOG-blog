@@ -1,6 +1,6 @@
 ---
 title: Build Nextcloud Server on Centos 7.5
-date: 2020-06-16 15:43:54
+date: 2018-12-08
 categories:
 - tech
 tags:
