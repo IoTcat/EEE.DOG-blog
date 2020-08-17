@@ -65,6 +65,7 @@ tags:
 ## 2019.6.12更新
 
 稳定运行611天18小时32分钟，正式退役！
+![236-iot](https://api.yimian.xyz/img/?path=imgbed/img_39e7f50_3968x1984_8_null_normal.jpeg)
 
 -------------
 已完结

@@ -13,13 +13,34 @@ tags:
 
 <!--more-->
 
-[scode type="green"]正式开发文档见[**这里**](https://wiot.eee.dog)[/scode]
+> 正式开发文档见[**这里**](https://wiot.yimian.xyz)
 
 ## wIoT for NodeJS
 适用于NodeJS的wIoT服务器控制组件，轻松物联
 
+# 项目简介
+
+## 立项初衷
+本项目旨在帮助不熟悉固件编程的网络开发者实现出自己的物联网应用。您仅需要一台网络内部的服务器（比如树莓派），以及若干个支持可联网（通过串口，WiFi，LoRa，蓝牙，Zigbee等）的单片机，即可轻松创建并管理属于您自己的物联网集群。
+
+## 支持功能
+ - ota (隔空自动更新固件)
+ - 自动扫描网络内单片机
+ - 通过wifi连接设置
+ - 使用socket/HTTP通信
+
+## todo List
+ - 支持python界面
+ - 开发web面板，图像化管理
+ - 支持更多单片机，比如esp8266等
+ - 开发nodeJS wiot-cli 命令行程序
+ - 支持nodeJS自动烧写固件，并自动配置(很重要)
+
+
+# 使用方法
+
 ## 先觉条件
- - 拥有烧录好[wIoT固件](https://wiot.yimian.xyz/ota/get.php)的**D1 MINI**单片机
+ - 拥有烧录好[wIoT固件](https://wiot-ota.yimian.xyz/get.php)的**D1 MINI**单片机
  - 一台或多台无线WiFi路由器2.4G/5G
  - 局域网内拥有一台装有**NodeJS**的服务器或电脑 (NodeJS装法非常简单, 请自行Google或百度)
  - 配置好**npm**
