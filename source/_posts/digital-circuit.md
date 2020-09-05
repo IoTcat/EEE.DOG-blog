@@ -1,16 +1,45 @@
 ---
 title: 数电期中总结
+titleEN: Mid-term Summary of Digital Circuits
 date: 2019-02-28
 categories:
 - notes
 tags:
 - circuit
 ---
+
+
+
+{% raw %}<span class=".zh">{% endraw %}
 上学期掉了魔电的坑，这学期来搞点数电小攻略掩饰一下(☆ω☆)
+{% raw %}</span>{% endraw %}
 
 
+{% raw %}<span class=".en">{% endraw %}
+I lost the pit of magic electricity last semester. This semester, let’s make a small strategy to hide it (☆ω☆)
+
+{% raw %}</span>{% endraw %}
 <!--more-->
 
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 # 1. 数制与码制
 ## 二进制运算
 ### 补码
@@ -104,3 +133,104 @@ $$(N)_{INV}=\begin{cases}N&\text{N为正数}\\(2^{n}-1)-N& \text{N为负数} \en
   [1]: https://zhidao.baidu.com/question/1692306348989800588.html
   [2]: https://www.eee.dog/usr/uploads/2019/02/1948813444.pdf
   [3]: https://www.eee.dog/usr/uploads/2019/02/20970449.pdf
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+# 1. Number system and code system
+## Binary operation
+### Complement
+The complement is often used to represent negative numbers for easy calculation.
+Positive numbers and zero complement are themselves, and the complement method of negative numbers is as follows:
+Binary subtraction can be implemented by adding the complement of the subtracted number to the subtracted number.
+**<Method One> Direct Method**
+$$(N)_{COMP}=\begin{cases}N&\text{N is a positive number}\\2^{n}-N& \text{N is a negative number} \end{cases}$$
+
+When the sign bit is zero (positive number), the complement is the same as the source code. When the sign bit is 1 (negative number), the complement is $2^{n}-N$.
+**<Method Two> Observation Method**
+If you want the complement, you can find the inverse first.
+$$(N)_{INV}=\begin{cases}N&\text{N is a positive number}\\(2^{n}-1)-N& \text{N is a negative number} \end{cases}$$
+
+That is, except for the sign bit, 0 changes to 1, and 1 changes to 0.
+Then add 1 to the whole complement to get the complement~
+
+## Common coding
+### DCB
+That is, the 8421 constant weight code. When DCB is displayed as a decimal number, 6 must be added to each Invalid bit (>9).
+
+### Signed Numbers
+8 bits are used, the leftmost bit represents the sign, and the remaining 7 bits represent the value.
+
+
+## Mid-term summary
+### First week-first acquaintance with digital telephony
+ - The analog quantity is too complicated to conform to human thinking
+ - Non-linear devices such as triode and MOS tube provide the device basis for the magic speed
+ - Because analog electricity is too difficult, we have to learn math electricity
+**Some points**
+ - TTL means transistor logic circuit, composed of various transistors and resistors, and is characterized by fast speed
+ - 0-0.8V in TTL is low level, 2-5V is high level
+ - Conversion between binary and decimal (integer/decimal)
+ - LSB(Least Significant Bit)/MSB(Most S B)
+
+### Second week-Number system
+ - 1's Complement
+ - 2's Complement
+ - Sometimes the binary is too long to use, which makes hexadecimal very convenient
+ - Hexadecimal is similar to binary mnemonic, if you observe `1100 0101`, you can write `C5` directly
+ - BCD uses a hexadecimal number to represent a decimal number
+ - BCD is in line with human thinking habits, but it causes a great waste of resources
+ - BCD four arithmetic, I think it’s best to convert to decimal and then convert it back. Anyway, it’s very convenient
+ - Computer BCD addition adopts +6 carry method
+ - When storing numbers, the leftmost digit is the sign bit
+ - Negative numbers are stored using one's complement ([chestnut][1])
+ - 1 byte signed number range `-128-127`
+ - Reasonably design the number of storage bits and be careful of overflow
+ - [Binary Multiplication](https://zhidao.baidu.com/question/293829485.html)
+ - [Binary Division](https://zhidao.baidu.com/question/304091753926723564.html) Similar to decimal
+
+### Week 3-Logic Gate and Circuit Package Type
+ - NOT
+ - AND gate
+ - OR gate OR
+ - NOT AND gate NAND
+ - NOR gate
+ - Exclusive OR gate XOR
+ - Commonly there are TTL and CMOS two types
+ - CMOS can be divided into 3.3V and 5V according to the supply voltage
+ - Fan-out refers to the number of valid inputs
+ - propagation delay time refers to response time
+ - IC naming, for example, 74 in `74LS04` means commodity grade, LS means type, 04 is model
+ - Classification by complexity: SSI (1-12 doors), MSI (13-99 doors), LSI (100-9999 doors), VLSI (10000-99999), ULSI (100000+)
+
+### Week 4-Boolean operations
+ - Follow the exchange, combination, and distribution laws
+ - Conclusion `A+AB=A` and `A+~AB=A+B`
+ - DeMorgan's Theorems `~(AB)=(~A+~B)` and `~(A+B)=~A~B`
+ - `~A~B` is Negative AND, `~(AB)` is NAND, OR is the same
+ - SOP format is `··+··+··`
+ - POS format is `()*()*()`
+ - Truth Table is a list of all possible Input and Output
+
+### Week 5-Karnaugh Map
+  - Karnaugh Map to visualize logic gate simplification
+
+### Week 6-Logic Gate Combination
+ - NAND and NOR can be combined into any other gate
+ - Adder put `A AND B` on the left bit and `A XOR B` on the right bit
+ - Comparator 1bit`A XOR B` 2bit`(A0 XOR B0) NOR (A1 XOR B0)`
+ - Decoder logic binary to control level output
+
+------------
+Courseware:
+[Lecture03.pdf][2]
+[Lecture04.pdf][3]
+
+
+  [1]: https://zhidao.baidu.com/question/1692306348989800588.html
+  [2]: https://www.eee.dog/usr/uploads/2019/02/1948813444.pdf
+  [3]: https://www.eee.dog/usr/uploads/2019/02/20970449.pdf
+
+{% raw %}</span>{% endraw %}

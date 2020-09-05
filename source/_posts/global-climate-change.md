@@ -1,5 +1,7 @@
 ---
 title: 气候变化与全球环境
+titleEN: Climate change and the global environment
+display: true
 date: 2019-02-27
 categories:
 - thoughts
@@ -7,10 +9,41 @@ tags:
 - climate
 - environment
 ---
+
+
+
+{% raw %}<span class=".zh">{% endraw %}
 全球气候变化与人类行为有着显著的相关性，人类行为又会改变气候的自然变化。通过研究Ice core等Archive，发现地球历史中温度与$CO_{2}$浓度有着显著正相关性。如今，人类行为使大气$CO_{2}$含量远超其正常水平，其可能引起全球变暖，冰川融化等，但仅为可能..
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+Global climate change has a significant correlation with human behavior, and human behavior will change the natural changes in climate. By studying Archives such as Ice core, it is found that there is a significant positive correlation between the temperature and the concentration of $CO_{2}$ in the history of the earth. Nowadays, human behavior makes the atmospheric content of $CO_{2}$ far exceed its normal level, which may cause global warming, melting of glaciers, etc., but it is only possible...
+
+{% raw %}</span>{% endraw %}
 
 
 <!--more-->
+
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 ## 概念简介
 
 ### 天气与气候
@@ -108,6 +141,115 @@ F --> E
 
 
   [1]: https://www.eee.dog/usr/uploads/2019/02/3411175553.pdf
-  [2]: https://yimian-image.obs.myhwclouds.com/blog/34-1.png
-  [3]: https://yimian-image.obs.myhwclouds.com/blog/34-2.jpg
-  [4]: https://yimian-image.obs.myhwclouds.com/blog/34-3.png
+  [2]: https://api.yimian.xyz/img/?path=imgbed/img_8a6ca9c_720x237_8_null_normal.jpeg
+  [3]: https://api.yimian.xyz/img/?path=imgbed/img_c2461c9_600x400_8_null_normal.jpeg
+  [4]: https://api.yimian.xyz/img/?path=imgbed/img_d2a8246_394x204_8_null_normal.jpeg
+
+ {% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+## Concept introduction
+
+### Weather and Climate
+Weather refers to the state of the atmosphere in a short period of time, and climate research mainly focuses on the law of atmospheric state in a longer period of time. In short, climate is weather that changes periodically. The climate is regional and closely related to the distribution of land and sea with latitude. In a longer time dimension, we find that the Earth’s climate change also shows significant periodicity.
+
+![The temperature changes in the history of the earth][2]
+
+The figure above describes the historical temperature of the earth, which has obvious periodicity. It is worth noting that whenever the global climate warms, it will trigger an explosion of species. But now, it is in a small-scale temperature rise period, and the temperature rise rate is not too abnormal with historical data, so it is impossible to conclusively prove that it is related to human carbon dioxide emissions.
+
+## research method
+
+### Direct method (research modern)
+1. Record the temperature
+2. Record rainfall (Precipitation)
+3. Research vegetation (Vegetation)
+4. Sea level
+5. Glaciers :: Balance, mainly through the study of the melting and formation of ice sheets
+
+### Indirect Method (Research History)
+1. Proxy
+2. Archive e.g. "Ice Core" :: a layered ice lolly specimen extracted from the Ice Sheet
+
+### Ice Core layering reasons
+After snow cover, over time, snow cover will experience the following states:
+1. Snow (a few hours, the main component is air)
+2. Firn (a few days, snow)
+3. Glacial Ice (several years)
+
+### Time tracking method
+Because the temperature of snow is different, the ice layer will change periodically in units of years, and the age of a certain ice layer can be obtained by counting the number of layers.
+![冰层][3]
+
+### Historical temperature research method
+The ratio of ${}^{18}O/{}^{16}O$ in the atmosphere is closely related to temperature. Therefore, the current temperature can be indirectly inferred by measuring the isotope ratio of the corresponding position in the ice layer.
+In addition, the concentration of $CO_{2}$ in each historical period can also be measured by a similar method.
+
+## The study found
+
+### Carbon dioxide concentration is closely related to temperature
+
+![History of carbon dioxide and temperature][4]
+
+As can be seen from the above figure, in the history of the earth, the concentration of carbon dioxide has a close correlation with temperature. Until the past 150 years, this rule was broken, and the concentration of atmospheric carbon dioxide increased dramatically. People expressed panic ⌇●﹏●⌇
+
+## With humans
+
+### A formula
+$$Increase CO_{2} = Increasing Population + \Delta Emission per Person + Efficiency of CO_{2} Use$$
+This formula can also be translated as:
+$$Carbon emissions = population + economy-technology$$
+
+### An organization
+The Intergovernmental Panel on Climate Change (IPCC) has set a small goal to limit greenhouse gas emissions in various countries, stating that by 2050, global carbon dioxide emissions will have to be half. . In fact, this is equivalent to linking emissions with money, giving each country a portion of the emissions, and paying for more emissions. As a result, the industrialized developed countries cut away more than 40% of the cake. The president of the National University of Science and Technology, Lao Ding, said that this is unbearable. Do people in developing countries have human rights? ヾ(´･ ･｀｡)ノ"
+
+## Climate warming impact
+### Good
+ - Data shows that the higher the temperature, the fewer wars worldwide
+ - Experiments show that when the temperature is high, the yield of vegetation such as grain is higher
+
+### Bad
+ - Southern animals (bugs) move northward faster than plants. There are no natural enemies in the north, and plants are eaten up by bugs.
+ - Sea level rises, flooding Suzhou
+
+{% raw %}
+<!-- Introduce mermaid drawing-->
+<div class="mermaid">
+graph TD
+A{Climate Change}
+B[Economy]
+C[Politic]
+D[Tech]
+E[Agriculture]
+F[Human Health]
+
+A --> |influence| E
+E --> |change| B
+E --> |change| C
+B --> |change| C
+B --> |determine| D
+C --> |determine| D
+B --> |influence| F
+D --> |affect| F
+D --> A
+C --> A
+D --> E
+E --> |Green Plant| A
+E --> F
+F --> E
+</div>
+{% endraw %}
+
+-------------
+Reference courseware:
+[Climate change-From past to Future-Yi Zou-2019.pdf][1]
+
+
+  [1]: https://www.eee.dog/usr/uploads/2019/02/3411175553.pdf
+  [2]: https://api.yimian.xyz/img/?path=imgbed/img_8a6ca9c_720x237_8_null_normal.jpeg
+  [3]: https://api.yimian.xyz/img/?path=imgbed/img_c2461c9_600x400_8_null_normal.jpeg
+  [4]: https://api.yimian.xyz/img/?path=imgbed/img_d2a8246_394x204_8_null_normal.jpeg
+
+
+
+{% raw %}</span>{% endraw %}

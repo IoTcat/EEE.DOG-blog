@@ -1,17 +1,48 @@
 ---
-title: 2018 – Retrospect and Prospect
+title: 2018 – 年度总结
+titleEN: 2018 – Retrospect and Prospect
 date: 2019-01-08
 categories:
 - life
 tags:
 - summary
 ---
+
+
+{% raw %}<span class=".zh">{% endraw %}
 白驹过隙，挥别2018，走向2019..
 
 作为完全独立生活的第一年，失去约束，放飞自我，狠狠地狂野了一把。然后，竟然还意外地做成了不少事情..
+{% raw %}</span>{% endraw %}
 
+
+{% raw %}<span class=".en">{% endraw %}
+In the blink of an eye, I bid farewell to 2018 and march towards 2019..
+As the first year of a completely independent life, I lost my inhibitions and let myself go wild.Then, unexpectedly also accomplished many things unexpectedly..
+{% raw %}</span>{% endraw %}
 
 <!--more-->
+
+
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 
 ## 代码方面：
 
@@ -171,3 +202,172 @@ tags:
 
 ---------------
 本文已完结哦(๑•̀ㅁ•́ฅ)
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+
+## Code：
+
+- The most rewarding part was discovering and joining Github
+- Master a lot of new languages, including C, C++, PHP, JavaScript, VBS, HTML, CSS, Python, shell, DOS, Matlab (roughly in the order of proficiency)
+- Runs 7 servers, 1 Win2012 in Shanghai (the first), 3 Cent in Sydney, Atlanta, and London, 2 Cent in China in Shenzhen and Beijing, plus Ubuntu Raspberry Pie in my dorm room, hahaha,,,,
+
+### The First Half of The Year
+ - In the first half of the year, I helped my father to do 10,000 businesses, connected with the Server in Shanghai via FTP, and managed to make a company website. Unfortunately, in the summer vacation, I was lost by the hacker friends in Latvia (at least IP is), so I abandoned the pit of Windows
+- 5 or 6 months trying to make a platform Steel15 high school classmate, but because the planning mode is impractical, the schedule has been put on hold, and finally in August hacked together (from a good habit to pay close attention to regular backups (, ̀ omega, ́) y)
+- in July, when I was in the r&d department of euron, I worked with my team members to make a student electronic ID card based on WeChat small program. I worked as a back-end engineer in the card, and finally I did a project defense in front of the school and enterprise bosses
+ - During the summer vacation, I conducted two projects with Wifiduino at home, such as solar energy automatic water addition and self-induction of corridor lights. During the designing and purchasing of materials, I got some knowledge of water pipes and electric wires.It is said that the board is still running well
+
+### September and October
+- In September, it started to move into Linux, experimenting with servers through Vultr, setting up a private SS server that has been scientifically connected ever since
+- In September, NextCloud based on open source set up the first private network disk in London Docker. It has been used until now, except for domestic access speed, ~ ~ ~ ", hoping to get better after going to Britain
+- In September, the dormitory IoT system was rebuilt and has been working well despite a few bugs so far
+- In October, frustrated by the number of banned Yimian dramas, the first Yimian Video platform was set up
+- In October, I tried to run Linux Mail service for several times, but failed. So far, I still use The Windows Mail in May
+ - In October and November, C language as made a small game of rock scissors with data network synchronization and background music
+- In October, developed an SMS verification code login system
+- In October, based on shell and a series of Linux software combined with Nginx, I built a port traffic management and statistics system for SS server, and then opened it to my classmates and friends to help them access the Internet scientifically (But my friends in Beijing didn't respond well, maybe the wall in Beijing is relatively high, I hope this year we can solve this problem by adding confusion).
+
+### November and December
+- In November, following an online class at Peking University, I tried to engage in image recognition of Python TensorFlow, and then successfully abandoned it halfway. . But finally I have a practical understanding of AI, and understand that the essence of the current neural network is to use a tuft of polynomials to fit a complex natural function
+ - In November, I started my life’s first Raspberry Pi with an infrared camera. Currently, it can provide live streaming video services.
+ - In December, I tried to develop a WeChat applet for automatic sign-in in class, but failed by ICE's powerful restriction algorithm.
+ - In December, built a blog platform based on Wordpress that loads slowly,
+ - In December, I stumbled upon frp, successfully achieved service intranet penetration, and applied it to the Raspberry Pi and my PC
+ - In December, I worked on a hotel management system with 5 people in the C language team, and my biggest contribution was to build a bottom-level database system from scratch. The processing speed was slow, even though the hash algorithm had been introduced. .
+ - At the end of December, I entered the pit of Github and came into contact with the DIYgod god
+ - At the end of December, based on Dplayer, improved Yimian Video to the third generation, supported hls, built a bullet screen server, added a bullet screen function, and connected to station B bullet screen through a third-party API
+ - At the end of December, based on Aplayer, a web music player plug-in based on PHP control was developed, which can directly play NetEase Cloud designated playlists
+ - At the end of December, improved the previous login page, added original anti-robot algorithm, and upgraded it to a fully dynamic page
+ - At the end of December, contacted pjax, YimianVideo, and video list pilot applications, and started the dynamic transformation of the whole site
+ - At the end of December, started the Cuckoo machine, using its API to automatically print today's site visit statistics every night
+
+## Learning Aspect：
+
+- After completing the English EAP course, IELTS exchange is about 6.5 points. After all, it has been taught in English for a year and a half.
+  - In the liberal arts, I am very happy in history and law. Well, I don’t comment.
+  - I supplemented basic psychology, social psychology, developmental psychology, abnormal psychology, psychological counseling, and psychometrics at the beginning of the year. I planned to take the counselor exam, but I was very sorry because I was under the age requirement. I'm so happy to learn so many things I like
+  - Circuits, at least basic DC and AC analysis can be done
+  - Daily physical modeling in November, and finally the daily construction can not be solved...
+  - I took the course of urban planning, although I can’t bear to look directly at the impact on the equalization, but now I feel more and more feeling about the city.
+  - The club joined Infoco and got into the management based on the relationship, and then it was always the occasional meeting to come up with ideas, etc.
+
+## Research:
+
+In terms of research, there are mainly three. In the first half of the year, we investigated the impact of the Personality trait on Second Language Acquisition, and finally found that only the introverted type and the Grammar advantage have a significant correlation. During the summer vacation in Oulang, I conducted a survey on the Internet of Things industry and found that there is a significant trend of customization and decentralization in the industry. In the second half of the year, I studied Fog Computing on the basis of the conclusion of the summer vacation. I basically read the IEEE articles on Fog in the past two years, and I became more and more convinced of the trend of Internet cloud and fog combination in the next 10 years. There is a feeling that China will be the key to this Internet architecture change
+
+## Life aspect
+
+### ACG
+ - Chasing Fan 56, which are
+> "Touken Ranbu-Hanamaru"
+> "Juvenile Jinyiwei"
+> "April is your lie"
+> "Swaying Camping"
+> "The Moonlight Is Really Beautiful"
+> "Takagi-san who is good at teasing"
+>《 CLANNAD》
+>《 KANON》
+>《 AIR》
+>《Plastic Memory》
+> "Bingguo"
+> "Charlotte"
+> "Dragon and Tiger"
+> "Star Dream"
+>《Angel Beats》
+> "Slash the Crimson Eye"
+> "Guilty Crown"
+> "The Garden of Words"
+> "Sakura Village's Pet Girl"
+> "Unheard Flower Names"
+> "Sword Art Online"
+> "The Disappearance of Haruhi Suzumiya"
+> "A certain scientific super-electromagnetic gun"
+> "Violet Evergarden"
+> "Firefly Forest"
+> "The Shape of Sound"
+> "Dating in the Second Disease"
+> "Fate of Space"
+> "Tokyo Ghoul"
+> "Strength Doctrine Classroom"
+> "Working Cells"
+> "Aria the Scarlet Ammo"
+> "Zero-Starting Life in Another World"
+> "Teacher Eromanga"
+> "My sister can't be so cute"
+> "My youth romance story really has a problem"
+>《White Album 2》
+> "Beyond the Realm"
+> "Game of Life"
+>《 citrus》
+> "The Gate of Destiny Stones"
+> "What are you doing in the future? Is there any time? Can you come to save? 》
+> "How to raise a passerby heroine"
+>《 fate》
+> "Attack on Titan"
+> "Jade Market"
+> "The Dragon Maid of the Kobayashi Family"
+> "Blow, Euphonium"
+> "Natsume's Book of Friends"
+> "The Little Things of the Fairy Forest"
+> "Gintama"
+> "Small Buried Qianwumei"
+> "A Certain Magical Index"
+> "Blow, Euphonium Season 2"
+> "Leeds and the Bluebird"
+> "Qingyin Girl Season 1"
+ - Watch TV series: "lie to me", "Silicon Valley", "negotiator", "translator", "unnatural death"
+
+### Happiness
+  - Bilibili watched the video for 425 hours, and probably finished Jack Ma's speech. The most obsessed up host turned out to be the Global Times. .
+  - 1017 hours of listening to songs in Yuncun
+  - Listened to a symphony concert
+  - Five trips in Qufu, Taihu Lake, Suzhou Humble Administrator's Garden, Jinan and Nanjing
+  - Go to the bar once
+  - Three karaoke
+  - Visit grandma, grandpa, and cousin and nephew
+  - Learn to drive, subject one, subject two, driving from Fangte to Yamaguchi without a license
+  - I watched a lot of movies, so I won’t count them
+  - Pay more attention to life and hair in the later period, and average 2 boxes of milk a day, and gradually keep up with it early
+
+## Economic Aspect
+
+ - Project expenses are getting longer, spending 1000+ in 18 years, but still manageable
+ - Scholarship subsidy
+ - Relatively stable investment strategy, average 7-day annualization can reach 4+, the highest time is 7
+ - Cash flow control is okay, there is no cash shortage in one year
+ - Then I found that if I just want to spend more money, I really need to work hard
+
+## Exhibition:
+
+ - Participate in the China Developers Conference, open source
+ - Go to Shanghai to participate in the World Mobile Conference and get a glimpse of the future of China's Internet
+
+## Reflection:
+
+ - Staying up late is a bit too small, visually check the average of going to bed at 1:30 in the second half of the semester
+ - The number of overnight stays is slightly higher, about 15 times, of which 3 times are more than 30 hours overnight
+ - Less exercise, only one swim, not much running
+ - I can't get up often so I skip breakfast
+ - The rhythm of life is chaotic when I start the process, and I am too eager to pursue functional perfection and perfection
+ - Rhythm is unstable in the second half of the second semester of high school, and mathematics is basically not learned in the half semester
+ - Too much attributed to the school curriculum, which is very problematic in itself
+
+## Looking forward to 2019:
+
+ - A more comfortable life
+ - More pleasant rhythm
+ - More sincere interpersonal
+ - Top 100 Github China in 2020
+ - Stylistic two blossoms
+
+
+---------------
+This article is over (๑•̀ㅁ•́ฅ)
+
+
+
+{% raw %}</span>{% endraw %}

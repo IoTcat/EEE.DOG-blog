@@ -1,5 +1,6 @@
 ---
 title: wifiduino搭建236宿舍物联网平台
+titleEN: Use wifiduino to build 236 dormitory IoT platform
 date: 2018-09-08
 categories:
 - tech
@@ -7,12 +8,41 @@ tags:
 - iot
 - Arduino
 ---
+
+
+{% raw %}<span class=".zh">{% endraw %}
 重新搭建236的IoT底层平台，并通过Blinker手机控制，实现操控监视。平台拥有很强的扩展性及可移植性，目前实现了夜间自动灯光，火灾烟雾报警，床帘内：上床小夜灯开，自动通风，LED自动感应阅读状态等设计。
 
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+Re-build the 236 IoT underlying platform and control it through Blinker mobile phone to realize control and monitoring. The platform has strong scalability and portability. At present, it has realized the design of automatic lighting at night, fire and smoke alarm, and bed curtain: the night light on the bed, automatic ventilation, and LED automatic sensing reading status.
+
+{% raw %}</span>{% endraw %}
 
 <!--more-->
 
 
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 ## 搭建缘由
 
 早在大一上学期，意外接触Arduino，开始了解单片机。17年11到12月份，曾利用Arduino uno 3搭建了一台功能简易的自动控制平台，主要实现了由红外遥控器控制床帘Light以及小夜灯的功能。在运行一个半月后，由于一次上传代码时意外短路，导致单片机烧毁，自此系统报废，但线路依旧保留。
@@ -72,3 +102,64 @@ tags:
 
 
   [1]: https://github.com/iotgod/wIoT
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+## Build reason
+
+As early as the first semester of my freshman year, I accidentally came into contact with Arduino and started to understand microcontrollers. From November to December 2017, I used Arduino uno 3 to build a simple automatic control platform, which mainly realized the function of controlling the bed curtain Light and night light by the infrared remote control. After running for a month and a half, due to an accidental short circuit when uploading the code once, the single-chip microcomputer was burned out. Since then, the system has been scrapped, but the circuit remains.
+
+Considering that the code is completely new to the first time, the code lacks necessary comments, and dozens of lines leading to the bed curtain are completely entangled, and it is impossible to distinguish which sensors or devices are controlled by the specific ones. Therefore, the reconstruction plan is temporarily shelved.
+
+In the summer vacation half a year later, I participated in the IETE project of Oulang China. During the course, I had a pleasant experience with the software and hardware engineers of the company’s R&D team in the application and development of some single-chip microcomputers, and learned about the basic composition and development status of single-chip microcomputers and the Internet of Things. In addition, the original circuit was tested, classified, and labeled to enable it to be used normally.
+
+In August, the project ended and I returned home. Considering that the original solar energy in the home needs to be turned off manually after adding water, it often happens that the water is forgotten to turn off after taking a bath at night, resulting in a lot of water waste. So combined with what Oulang has learned and his own practical experience, he built a solar automatic water filling system based on wifiduino and solenoid valve. In order to take care of the elderly grandma and facilitate the use of the toilet at night, the original abandoned wired network lines were used in the corridors to build an automatic induction light-on system closely integrated with the manual switch. This has gained a lot of experience in the installation of home wiring.
+
+Back in Suzhou, considering the relevant experience in the past year, I thought it was time to try to build a long-term commodity-level and highly scalable IoT system, so...start doing things
+
+## Build experience
+
+At the beginning of the construction, everything went smoothly. However, as the system gradually improves and the code becomes more complex, the classic Arduino-style software and hardware compatibility problems are gradually starting to mess up~
+
+The first problem encountered is (probably due to some magical activities between esp8266 and wifiduino) when the code is transferred to wifiduino via usb, the code runs normally, but after a power failure or reset, it will die . . . Moreover, this problem only appeared after uploading a program that occupies about ten Digital communication ports. If you only upload a simple sample program, it runs normally. Finally, I fished a USB-DC9V boost cable for routers from Taobao. , Use its continuous power supply to ensure the normal operation of the board.
+
+The second problem encountered is also very magical. That is, wifiduino can't upload code after connecting tx and rx! ! ! I always thought the board was broken
+
+Originally there was only one board, but when he loaded too many consoles, it probably died and the wifi could not connect to Blinker.. So I only used it as a controller, and then connected another board to wifi, and it would accept The information is passed to the motherboard for execution through the serial port. As a result, the operation was finally normal,,, inexplicably thought of the decoder of Oulang at that time.
+
+## The main function
+
+In terms of functions, it seems that there are not many at present. 4 sensors: 2 Ultra Sure Wave Ranging, 1 photosensitive, 1 smoke, 4 control terminals: 1 outdoor searchlight ledB, 1 night light, 1 bed Headlight, 1 small fan. If it is realized, it is nothing more than their mutual cooperation. Currently, 4 locations of my existence and 1 location of my roommate can be accurately identified. Then program and adjust the lights and fans in accordance with behavior habits.
+
+In the future, it is planned to be implemented gradually-Sensing layer: Recognition of whether there are people in the room. Intelligent layer: Learning the time rules of roommates in the dormitory (neural network). Control layer: Air-conditioning infrared control, based on esp8266 miniature relay for dormitory headlights Control, and, if you are happy, consider automatically raising a pepper plant...
+
+
+## At last
+
+Finally, the codes of the two boards are attached, and they will be updated.//Happy life~
+Code: https://uk.cloud.yimian.xyz/index.php/s/YbPwdkt2mANYoiS
+
+--------------------
+
+## 2019.2.19 update:
+
+The board has been running for more than 150 days and everything is running normally.
+There have been several minute-level control failure events. It is suspected that the dormitory's power grid is not stable, and they are automatically repaired afterwards.
+
+-------------------
+
+## 2019.2.28 update
+
+The above code link has been deprecated, if you are interested, you can check the [wIoT project][1] developed by its code!
+
+------------
+
+## 2019.6.12 update
+
+Stable operation for 611 days, 18 hours and 32 minutes, officially retired!
+![236-iot](https://api.yimian.xyz/img/?path=imgbed/img_39e7f50_3968x1984_8_null_normal.jpeg)
+
+-------------
+The END.
+{% raw %}</span>{% endraw %}

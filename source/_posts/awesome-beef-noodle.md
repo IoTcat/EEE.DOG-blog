@@ -1,5 +1,6 @@
 ---
 title: 香辣牛肉面
+titleEN: Spicy Beef Noodle
 date: 2020-01-19
 categories:
 - cook
@@ -8,9 +9,41 @@ tags:
 - noodle
 ---
 
+
+
+
+{% raw %}<span class=".zh">{% endraw %}
 自研香辣牛肉面做法~
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+Self-developed spicy beef noodle practice~
+
+{% raw %}</span>{% endraw %}
+
 
 <!--more-->
+
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 
 ## 材料准备(两人份)
  - 面条
@@ -38,3 +71,37 @@ tags:
 
 ## 配图
 ![香辣牛肉面-2020-01-19](https://api.yimian.xyz/img/?path=imgbed/img_6dff3385_3648x2736_8_null_normal.jpeg)
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+## Material preparation (for two persons)
+  - Noodles
+  - Two eggs
+  - Two British scallions, minced
+  - Two slices of ginger minced
+  - Dice beef
+  - Prepare a small bowl with anise, cinnamon, white button, and a little white pepper
+
+## Preliminary steps
+  - Hot pot vegetable oil fragrant fried eggs
+  - Blanch the beef in hot water
+
+## Core steps
+  - Hot pot vegetable oil sesame oil, put the scallion part into the pot
+  - Add boiling water and beef cubes, add the seasoning in the bowl, and simmer for 3 minutes
+  - Add a spoonful of light soy sauce, half a spoonful of dark soy sauce, and a spoonful of oyster sauce
+  - Add appropriate amount of chicken essence and salt to adjust fresh
+  - Add appropriate amount of red vine pepper oil to adjust spicy
+  - Add the noodles and cook until cooked
+
+## Follow up
+  - Add the noodles to the bowl and cover with eggs
+  - Add the remaining green onion
+
+## With pictures
+![Spicy Beef Noodle-2020-01-19](https://api.yimian.xyz/img/?path=imgbed/img_6dff3385_3648x2736_8_null_normal.jpeg)
+
+{% raw %}</span>{% endraw %}

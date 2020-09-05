@@ -1,5 +1,6 @@
 ---
 title: 总结一下我的代码风格
+titleEN: Summarize my code style
 date: 2019-02-26
 categories:
 - tech
@@ -7,10 +8,39 @@ tags:
 - cpp
 ---
 
+
+
+{% raw %}<span class=".zh">{% endraw %}
 我的代码风格大致有以下几种情况：组织中追随组织领导，公司里老板说的都对，学校里大佬教的都好╮(╯▽╰)╭ 仅其它一些自己的开源小项目则遵循以下风格→_→
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+My coding style is roughly in the following situations: I follow the leadership of the organization, the boss in the company is right, and the big guys in the school teach well ╮(╯▽╰)╭ Only some other small open source projects of their own follow The following style→_→
+{% raw %}</span>{% endraw %}
+
 
 <!--more-->
 
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 ## 关于强迫症
 首先说好，
 
@@ -121,3 +151,121 @@ function  db::get_usr_info();
 
 
   [1]: https://nginx.org
+
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+## About obsessive-compulsive disorder
+First of all,
+
+The four-space Tab indentation is great! ! !
+The four-space Tab indentation is great! ! !
+The four-space Tab indentation is great! ! !
+
+The braces do not wrap! ! !
+The braces do not wrap! ! !
+The braces do not wrap! ! !
+
+
+## About naming
+
+Name it so that others can understand it at a glance. Ideally, looking at your code is as comfortable as reading a little English poem ::aru:insidious::
+
+### Often/variable naming
+
+The compiler constants are all uppercase, and the characters are connected by a single underscore. Such as:
+````C
+#define WIFI_PASSWD 12345
+````
+
+Variables are basically named with small camels. The rule is to connect words directly (without underscores), the first word is all lowercase, and the first letter of subsequent words is capitalized. Such as:
+````C++
+String usrName = "IoTgod";
+````
+Variable names that are frequently called should not be too long, but they should be clear.
+To achieve this, you can try to partially omit non-initial vowels in words. For example, user can be abbreviated as usr, and password can be omitted as passwd or psswd. But the simplified name still needs to be easy to recognize.
+
+Global variables are named using g_ plus the variable name, such as
+````C++
+global int g_isLightOn = 0;
+````
+
+Local static variables use s_ plus the variable name, such as
+````C++
+static int s_errorCounter = 0;
+````
+Constant variables, naming the same as ordinary variables, such as
+````C++
+const float pi = 3.14159265;
+````
+
+### Function Naming
+
+The function naming technique is stolen from the famous [Nginx][1] and slightly changed on its basis.
+The basic rule is *lowercase label name+__ (double underscore)+lowercase verb+lowercase noun()*
+Use a single underline link between nouns and nouns.
+E.g:
+````php
+function db__get_usr_info();
+````
+Among them, db means Database, prompting that this function belongs to the database operation label, and its function is to obtain user information.
+
+If you don't need tags (such as in some object-oriented languages), you can arbitrarily omit tags. Such as:
+````php
+function get_usr_info();
+//or
+function db::get_usr_info();
+````
+Different from variable naming, function naming need not be short, aiming at expressing clearly the function function
+
+## About comments
+
+In fact, if you can name the variable function well, you don't need any comments, but unfortunately, we still have to comment. .
+
+### File Notes
+File comments are mainly used to declare some file functions, category names, file names, copyright and other information. A style is as follows:
+````php
+/**
+ * cookie support #file function
+ *
+ * @category typecho #The category to which the file belongs
+ * @package Cookie #File name
+ * @copyright Copyright (c) 2008 Typecho team (http://www.typecho.org) #Author and copyright information
+ * @license GNU General Public License 2.0 #Open source agreement
+ * @version 2.1.1 #Version
+ */
+````
+### Class comments
+Class annotations are used to declare some basic information of the class, such as class function, author name, classification, and file. E.g:
+````php
+/**
+ * Database support #Function description
+ *
+ * @author qining #author
+ * @category typecho #Category
+ * @package Cookie #File name
+ */
+````
+### Function comments
+The function comment before the function mainly includes the function function, the function modifier, the type, name, and text description of each parameter, and the type and text description of the return value.
+````php
+/**
+ * Get the specified COOKIE value #Function function
+ *
+ * @access public #Function modifier, that is, whether the function can be accessed by the outside world
+ * @param string key specified parameter #Parameter 1, type is string, name is key, function description is specified parameter
+ * @param string default Default parameters #Parameter 2, type string, name default, function description Default parameters
+ * @return int #Return the integer return value
+ */
+````
+
+## Some small details
+ - There must be spaces on both sides of the equal sign, such as ``b = c; b = 15;''
+
+
+
+  [1]: https://nginx.org
+{% raw %}</span>{% endraw %}

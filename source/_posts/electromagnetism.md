@@ -1,5 +1,6 @@
 ---
 title: 工程电磁学
+titleEN: Engineering Electromagnetics
 date: 2019-02-26
 categories:
 - notes
@@ -7,11 +8,41 @@ tags:
 - maxwell
 ---
 
+
+
+{% raw %}<span class=".zh">{% endraw %}
+
 麦克斯韦大法好！！
+
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+Maxwell Dafa is good! !
+{% raw %}</span>{% endraw %}
 
 
 <!--more-->
 
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 
 ### 先供上麦克斯韦方程 膜拜膜拜(　o=^•ェ•)o
 
@@ -84,3 +115,83 @@ $$
 
 -----------
 To Be Continued...
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+### First offer to Maxwell's equation, worship (　o=^•ェ•)o
+
+$$
+\begin{eqnarray}
+\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0} \\
+\nabla\cdot\vec{B} &=& 0 \\
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
+\end{eqnarray}
+$$
+
+----------------
+
+## Chapter One-Gossian Cullen
+
+ - Suppose two electric charges $Q_{1}$ and $Q_{2}$ in space are separated by d, and the electric field force they want to interact with.
+ - Now take $Q_{1}$ as the center of the circle and $d$ as the radius to make the ball. According to the Gaussian law, the electric flux on the sphere is only related to the amount of charge in the sphere, which is $\frac{Q_{1}}{\varepsilon_0}$ in this example.
+ - Divide the electric flux in the above formula by the surface area to get the electric field intensity $\frac{Q_{1}}{4\pi d^{2}\varepsilon_0}$
+ - Field strength is multiplied by $Q_{2}$ to get Coulomb force $\frac{Q_{1}Q_{2}}{4\pi d^{2}\varepsilon_0}$
+ - Let $k=\frac{1}{4\pi \varepsilon_0}$ to get
+$$F = \frac{k Q_{1}Q_{2}}{d^{2}}$$
+Completed
+
+## Chapter 2-Gauss Golden Cudgel
+
+ - Assuming that a uniformly charged length is positively infinitely thin and the charge density is $\lambda$, find the field strength $d$ away from it.
+ - Draw a cylinder around the rod and set the height to be $x$.
+ - Due to the infinite length of the rod, the electric fields on the two bottom surfaces of the cylinder are cancelled.
+ - The cylindrical side area is $2\pi dx$
+ - The amount of charge in the cylinder is $\lambda x$
+ - Introduce Gaussian, get
+$$
+2\pi dxE = \frac{\lambda x}{\varepsilon_{0}}
+$$
+Organized
+$$
+E = \frac{\lambda}{2\pi d\varepsilon_{0}}
+$$
+Completed
+
+## Gauss Ball Ball
+
+ - First, there must be a charged ball with electricity $Q$, and I want to find the field strength at the distance of $d$ from the center of the ball.
+ - Then columnable
+$$
+4\pi d^2 E = \frac{Q}{\varepsilon_0}
+$$
+Organized
+$$
+E = \frac{Q}{4\pi \varepsilon_0 d^2}
+$$
+complete
+
+## Gaussian Noodles
+
+ - First, there is a uniformly charged infinite surface, the charged surface density is $\rho$, and the field strength of the point $d$ is desired.
+ - Using the infinite plane as the central cross section, make a cylinder with the center of the bottom surface as the point to be found, and the radius is $r$.
+ - Since the electric field lines are all parallel, only two bottom surfaces have electric field lines passing through.
+ - Columnable
+$$
+2\pi r^2 E = \frac{\rho \pi r^2}{\varepsilon_0}
+$$
+Organized
+$$
+E = \frac{\rho}{2\varepsilon_0}
+$$
+Finished
+
+
+-----------
+To Be Continued...
+
+
+{% raw %}</span>{% endraw %}

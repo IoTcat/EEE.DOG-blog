@@ -1,15 +1,48 @@
 ---
-title: Two Fundamental Demands of Human Beings
+title: 人类的两个基本需求
+titleEN: Two Fundamental Demands of Human Beings
 date: 2018-12-23
+display: true
 categories:
 - thoughts
 tags:
 - society
 ---
+
+
+{% raw %}<span class=".zh">{% endraw %}
 人类的需求可以总结为两类，创造需求的需求，与解决需求的需求。
 
 
+{% raw %}</span>{% endraw %}
+
+
+{% raw %}<span class=".en">{% endraw %}
+Human needs can be summarized into two categories, the need to create needs, and the need to solve needs.
+{% raw %}</span>{% endraw %}
+
+
 <!--more-->
+
+{% raw %}
+<script>
+	session.onload(function(){
+		if(page.tran.getLang() == 'en'){
+			tips.warning({
+				title: 'Caution',
+				position: 'topRight',
+				message: 'This page was translated by Machine!!',
+				buttons: [['<button>Show Original Page</button>', function (instance, toast) {
+					page.tran.setLang('zh');
+             		instance.hide({ transitionOut: 'fadeOut' }, toast, 'button');
+        		}, true]]
+			});
+		}
+	});
+</script>
+{% endraw %}
+
+{% raw %}<span class=".zh">{% endraw %}
 
 ## 历史缘由
 
@@ -44,3 +77,44 @@ tags:
 
 
   [1]: https://www.zhihu.com/
+
+
+{% raw %}</span>{% endraw %}
+
+{% raw %}<span class=".en">{% endraw %}
+
+## Historical reasons
+
+In the past hundreds of millions of years, due to the scarcity of survival resources, nature has constantly selected species through the law of "natural selection by nature, survival of the fittest". This makes "all for survival" the "objective function" of almost all species. Among the many surviving species, only humans have created and effectively used language as a tool. Language enables humans to carry out more complex reasoning thinking (imagination) and more effective communication of information between individuals. Thanks to language, human beings wittily prepare necessary survival resources in advance by predicting potential natural selection requirements and establish an effective system (market, trade) that coordinates resource creation (division of labor) and resource allocation. Inevitably, based on the habit of “everything for survival” and the ability to imagine and predict, human beings have formed a behavioral pattern that independently creates needs and solves needs, which results in two basic behavior motives, namely, the need to create needs. And the need to solve the needs.
+
+## Theoretical verification
+
+Observing the existing human social structure, whether the social group is a government, a social organization or an enterprise (company), its essence is a part of a closed-loop ecology that coordinates the needs of different human creation needs and the needs of solving needs. If a government, social organization, or enterprise can no longer serve as a link in a closed-loop ecology that coordinates human needs, it will quickly be replaced by other similar or different social groups that can perform its role more efficiently.
+
+Jack Ma is a great entrepreneur and strategist. The Taobao e-commerce platform and mobile fast payment created by him have made the coordination of people's demand creation and demand resolution more efficient. This has enabled Alibaba to gain the trust of the masses, which is manifested in the extremely high resource control power that Alibaba possesses, which is its extremely high market value.
+
+## Theoretical prediction
+
+When the internal resources of human beings are insufficient to support the survival of all people for some reason (problems in production or circulation), the excess human population will always be erased in some form, which is the famous Malthus trap. When a country or nation encounters the Malthusian trap, it will always choose to launch a war to solve it. Since the number of people to be erased is relatively fixed, if a war is launched, more people of their own tribe or country will survive, but part of the death will be transferred to the Gentile population. The Huns in ancient times, Germany and Japan in World War II are all very typical examples.
+
+Observing the wars in history, there were two large-scale wars, which we call the First and Second World Wars. The First World War was due to the replacement of manpower by a large number of machines, which necessitated the transfer of a large number of original manpower and labor. However, there is too much labor force to transfer in a short time. It shows that the unemployment rate is soaring, too many people have nothing to do, no income, and it is difficult to survive. In order to prevent this part of the labor force from getting out of control and making trouble, they had to divert their attention and start wars. This is caused by the stagnation of resource circulation caused by problems in the market system that coordinates the needs of people to create needs and meet the needs of needs. The same was true in World War II. When electric drives replaced the previous steam drives, a large number of laborers needed to be transformed. The United States took the lead in such problems in 1933. Because the Roosevelt administration had capital accumulated over the years of development, it was able to forcibly modify the ecological chain of resource circulation through the construction of a large number of civilian settings through the New Deal. However, Germany, which was looted just because of the First World War, and Japan, with its small territory and scarce resources, were not so lucky. They had to transfer their inevitable Malthusian trap to Jews and East Asia.
+
+Now that computing technology is fully developed, artificial intelligence algorithms that can fit natural complex functions (laws of nature) by building polynomials have emerged. This makes most non-creative mental work tend to be replaced. So, where will this part of the original mental workforce go? Especially in populous countries such as China and India, once the transition of the labor force is not good, the cost of the Malthusian trap will be huge and will eventually be borne by the world.
+
+My idea is, thanks to the development of digital technology, what if we can create a closed-loop ecosystem that can coordinate people's needs to create needs and needs to solve them? What if these original labor forces can quickly enter and adapt to the closed-loop ecosystem that we have created when the mental labor is replaced? Maybe we can avoid the terrible Malthus trap.
+
+After thousands of years of civilization development, contemporary mankind is no longer satisfied with simply solving the needs of nature, but has begun to try and create some very cool and interesting needs that are not very conducive to survival. In other words, we do not need all humans to work hard to ensure that they can survive. We can spare a large part of humans to explore some new and interesting fields.
+
+One possible idea is immersive online games. This online game is different from most existing online games. The business models of existing games mostly restrict the user's part of the functional experience through the program, and only users who have paid can use these functions. But the game I envision is more like a platform, from which players can propose their own (in-game) needs and can also solve other people's needs (ie transactions). This means that virtual currency can appear in a game, and the public recognition of the game will be reflected in the exchange rate between the game currency and the real currency. Game developers will develop through open source communities rather than enterprises, which means that the developers are not related to the game to a certain extent, thus ensuring the purity and efficiency of the game and making it possible to become a form of social infrastructure.
+
+The low threshold of the game and the game conforms to the thinking habits of brain workers, so that the mental labor force can be relatively easily transferred from the original occupation to the corresponding immersive game. Moreover, due to the virtualization technology, the game has sufficient flexibility to accommodate a large number of new people. Different from the present, public opinion and social thinking will also set off a wave of pride in transitioning to the game, in order to avoid more harmful wars.
+
+A bit similar to the view of function encapsulation in programming, the real world is similar to the main function, and each immersive online game is similar to sub-functions. The current society is like a program with only the main function, all functions are implemented in the main function. This makes the more complex the program functions, the more likely it is that various bugs will occur, which manifests as conflict or even war. And the future society is more like a main function with many sub-functions (immersive games). Each function is independent and dependent on each other, each game can coordinate its own closed-loop ecology, and partly interact with the main function. Such a social structure will become decentralized and look more stable and efficient.
+
+-----------------
+Note: Some of the ideas were inspired by [知 transit][1]
+
+
+  [1]: https://www.zhihu.com/
+
+{% raw %}</span>{% endraw %}
