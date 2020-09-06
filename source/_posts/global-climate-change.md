@@ -91,9 +91,26 @@ Global climate change has a significant correlation with human behavior, and hum
 ## 与人类
 
 ### 一个公式
+
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
 $$Increase CO_{2} = Increasing Population + \Delta Emission per Person + Efficiency of CO_{2} Use$$
+
+{% raw %}
+</div>
+{% endraw %}
+
 这个公式也可以转译为:
+
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
 $$碳排量 = 人口 + 经济 - 科技$$
+{% raw %}
+</div>
+{% endraw %}
+
 
 ### 一个组织
 Intergovernmental Panel on Climate Change (IPCC) 制定了一个小目标来限制各国温室气体排放，表示到2050年，全球二氧化碳排放量要卡一半。。这其实等同于将排放量和钱联系起来，给每个国家分一部分排放量，如果多排就要交钱来买。结果已经工业化完的发达国家切走了超过40%的蛋糕，国科大校长老丁表示这不能忍啊，发展中国家的人到底还有没有人权啊ヾ(´･ ･｀｡)ノ"
@@ -196,9 +213,26 @@ As can be seen from the above figure, in the history of the earth, the concentra
 ## With humans
 
 ### A formula
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 $$Increase CO_{2} = Increasing Population + \Delta Emission per Person + Efficiency of CO_{2} Use$$
+{% raw %}
+</div>
+{% endraw %}
+
 This formula can also be translated as:
+
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 $$Carbon emissions = population + economy-technology$$
+
+{% raw %}
+</div>
+{% endraw %}
 
 ### An organization
 The Intergovernmental Panel on Climate Change (IPCC) has set a small goal to limit greenhouse gas emissions in various countries, stating that by 2050, global carbon dioxide emissions will have to be half. . In fact, this is equivalent to linking emissions with money, giving each country a portion of the emissions, and paying for more emissions. As a result, the industrialized developed countries cut away more than 40% of the cake. The president of the National University of Science and Technology, Lao Ding, said that this is unbearable. Do people in developing countries have human rights? ヾ(´･ ･｀｡)ノ"

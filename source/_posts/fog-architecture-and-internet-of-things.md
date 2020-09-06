@@ -64,41 +64,41 @@ Fog促进物联网建设的另一个原因是，Fog结构化的互联网可以�
 
 -----------------
 **参考（IEEE）**
-[1] M. Aazam，I。Khan，AA Alsaffar和E. Huh，“物联网：整合物联网和云计算及其所涉及的问题”，2014年第11届国际巴本应用科学与技术会议论文集（IBCAST ）巴基斯坦伊斯兰堡。 [线上]。 2014年1月14日至18日，伊斯兰堡，第414-419页。提供：https：//uk.cloud.yimian.xyz/index.php/s/PAbkLC5bqoWFcJi
+[1] M. Aazam，I。Khan，AA Alsaffar和E. Huh，“物联网：整合物联网和云计算及其所涉及的问题”，2014年第11届国际巴本应用科学与技术会议论文集（IBCAST ）巴基斯坦伊斯兰堡。 [线上]。 2014年1月14日至18日，伊斯兰堡，第414-419页。
 
         这是一篇经过同行评审的早期文章，介绍了云和物联网的概念。它为我提供了研究人员如何看待Cloud以及他们如何理解2014年（当Cloud Computing开始流行时）IoT的范围。我使用它来提供有关Cloud简介的一些背景。
 
-[2] F. Bonomi，R。Milito，J。Zhu和S. Addepalli，“雾计算及其在物联网中的作用”，在第一版MCC移动云计算研讨会论文集中。 [线上]。 2012年8月，第13-16页。可用：https：//uk.cloud.yimian.xyz/index.php/s/ZnyXdJKk84dR2QD
+[2] F. Bonomi，R。Milito，J。Zhu和S. Addepalli，“雾计算及其在物联网中的作用”，在第一版MCC移动云计算研讨会论文集中。 [线上]。 2012年8月，第13-16页。
 
        本文首先指出了雾的概念。它的作者全部来自思科，思科被认为是提供Internetworking解决方案的最强大的公司。我已使用此资源介绍了Fog和Fog计算以及其虚构的Fog-IoT应用程序之一的互联汽车的一些背景。
 
-[3] M. Chiang和T. Zhang，IEEE物联网杂志中的“雾与物联网：研究机会概述”。 [线上]。卷3号6，pp.854-864，2016年12月。可用：https：//uk.cloud.yimian.xyz/index.php/s/Fi7KELbjE7kR3qq
+[3] M. Chiang和T. Zhang，IEEE物联网杂志中的“雾与物联网：研究机会概述”。 [线上]。卷3号6，pp.854-864，2016年12月。
 
         这是最有影响力的工程师组织IEEE发布的邀请论文。 Chiang来自普林斯顿，Zhang来自思科。在本文之后，更多的研究者开始注意到Fog。我使用此资源介绍，评估和查询Fog，因为这是一种罕见的高质量论文。
 
-[4] J.C. Corbett，J.Dean，M.Epstein，A.Fikes，C.Frost，J.J。 Furman，S。Ghemawat，A。Gubarev，C。Heiser，P。Hochschild和W. Hsieh，“ Spanner：Google的全球分布式数据库”，ACM Transactions on Computer Systems（TOCS）。 [在线] .vol。 31号3页2013年8月8日。可用：https：//uk.cloud.yimian.xyz/index.php/s/oxj4EAm6M78GPN8
+[4] J.C. Corbett，J.Dean，M.Epstein，A.Fikes，C.Frost，J.J。 Furman，S。Ghemawat，A。Gubarev，C。Heiser，P。Hochschild和W. Hsieh，“ Spanner：Google的全球分布式数据库”，ACM Transactions on Computer Systems（TOCS）。 [在线] .vol。 31号3页2013年8月8日。
 
         本文详细介绍了Google Spanner。 Google Spanner是根据本文设计的。之所以包含此来源，是因为我认为Google Spanner是Fog存储的革命性尝试。当我尝试描述雾存储的概念时，我以它为例。
 
-[5] W. Shi，J。Cao，Q。Zhang，Y。Li和L. Xu，“边缘计算：愿景与挑战”，在IEEE物联网杂志上。 [线上]。卷3号5，第637-646页，2016年10月。可用：https：//uk.cloud.yimian.xyz/index.php/s/p4QGJA6AWPDKEK4
+[5] W. Shi，J。Cao，Q。Zhang，Y。Li和L. Xu，“边缘计算：愿景与挑战”，在IEEE物联网杂志上。 [线上]。卷3号5，第637-646页，2016年10月。
 
         这是IEEE的期刊，已被引用8422次。它提供了有关如何将Fog应用于计算领域的一些新颖思想。我从此来源总结了Fog控制概念，并引用了他们对Fog IoT的隐私和安全性问题的质疑。
 
-[6] A. Yousefpour，G。Ishigaki和J. P. Jue，“雾计算：努力使物联网中的延迟最小化”，2017 IEEE国际边缘计算会议（EDGE），美国檀香山，檀香山。 [线上]。 2017年，第17-24页。可用：https：//uk.cloud.yimian.xyz/index.php/s/EsDjHnHHGND2SoD
+[6] A. Yousefpour，G。Ishigaki和J. P. Jue，“雾计算：努力使物联网中的延迟最小化”，2017 IEEE国际边缘计算会议（EDGE），美国檀香山，檀香山。 [线上]。 2017年，第17-24页。
 
         作者来自德克萨斯大学，他们在雾领域并不出名。由于它是唯一一篇评估延迟（Fog IoT的最重要特征）的数学方法，并且得出了看似可靠的结果，因此我使用它来支持我的低延迟论点。
 
-[7] S. Sarkar，S。Chatterjee和S. Misra，“在物联网环境下进行雾计算的适用性评估”，在IEEE交易云计算中。[在线]。卷6号1，第46-59页，2018年1月至3月。可用：https：//uk.cloud.yimian.xyz/index.php/s/m7of3EjZ6Tji7jF
+[7] S. Sarkar，S。Chatterjee和S. Misra，“在物联网环境下进行雾计算的适用性评估”，在IEEE交易云计算中。[在线]。卷6号1，第46-59页，2018年1月至3月。
 
         该论文是在几个月前发表的。它由两名学生和一名医生撰写，因此并不那么权威。但是，由于对Fog的研究很少，我最终决定使用其建模结果来支持Fog IoT比Cloud更环境友好。
 
-[8] G. Zyskind，O。Nathan和A.’。 Pentland，“去中心化隐私：使用区块链保护个人数据”，2015 IEEE安全和隐私研讨会，加利福尼亚州圣何塞。 [线上]。 2015年，第180-184页。可用：https：//uk.cloud.yimian.xyz/index.php/s/7FirJsrD93wzDxN
+[8] G. Zyskind，O。Nathan和A.’。 Pentland，“去中心化隐私：使用区块链保护个人数据”，2015 IEEE安全和隐私研讨会，加利福尼亚州圣何塞。 [线上]。 2015年，第180-184页。
 
         该论文由IEEE发表。 Zyskind来自麻省理工学院，这使得消息来源似乎可信。我对区块链算法感兴趣，该算法在理论上绝对是安全的，我认为这是解决Fog IoT安全问题的一种理想方法。
 
 ----------------------
 附件
-雾和物联网PPT：https://uk.cloud.yimian.xyz/index.php/s/GbLfqxX2CBTDdRR
+雾和物联网PPT
 
 {% raw %}</span>{% endraw %}
 
@@ -120,41 +120,41 @@ To conclude, although the IoT based on Fog concept may be currently doubted in p
 
 -----------------
 **Reference (IEEE)**
-[1] M. Aazam, I. Khan, A. A. Alsaffar and E. Huh, “Cloud of Things: Integrating Internet of Things and cloud computing and the issues involved,” Proceedings of 2014 11th International Bhurban Conference on Applied Sciences & Technology (IBCAST) Islamabad,Pakistan. [Online]. 14th – 18th January, 2014, Islamabad, 2014, pp. 414-419.Available: https://uk.cloud.yimian.xyz/index.php/s/PAbkLC5bqoWFcJi
+[1] M. Aazam, I. Khan, A. A. Alsaffar and E. Huh, “Cloud of Things: Integrating Internet of Things and cloud computing and the issues involved,” Proceedings of 2014 11th International Bhurban Conference on Applied Sciences & Technology (IBCAST) Islamabad,Pakistan. [Online]. 14th – 18th January, 2014, Islamabad, 2014, pp. 414-419.
 
         This is an early peer-reviewed article introducingthe concept of Cloud and IoT. It provides me the scope of how researcherslooked at Cloud and how they understood IoT in 2014 (when Cloud Computing beganto be popular). I have used this to provide some background about Cloud inintroduction.
 
-[2] F. Bonomi, R. Milito, J. Zhu and S. Addepalli, “Fog computing and its role in the internet of things” In Proceedings of the first edition of the MCC workshop on Mobile cloud computing. [Online]. August, 2012, pp.13-16. Available: https://uk.cloud.yimian.xyz/index.php/s/ZnyXdJKk84dR2QD
+[2] F. Bonomi, R. Milito, J. Zhu and S. Addepalli, “Fog computing and its role in the internet of things” In Proceedings of the first edition of the MCC workshop on Mobile cloud computing. [Online]. August, 2012, pp.13-16. 
 
        Thispaper firstly pointed out the Fog concept. Its writers were all from Cisco, which is considered the most powerfulcompany on providing Internetworking solution. I have used this sourceto introduce some background of Fog and Fog computing and the Connected Vehicle,one of their imaginary Fog-IoT application.
 
-[3] M. Chiang and T. Zhang, “Fog and IoT:An Overview of Research Opportunities” in IEEE Internet of Things Journal. [Online]. vol. 3, no. 6, pp.854-864, Dec. 2016. Available: https://uk.cloud.yimian.xyz/index.php/s/Fi7KELbjE7kR3qq
+[3] M. Chiang and T. Zhang, “Fog and IoT:An Overview of Research Opportunities” in IEEE Internet of Things Journal. [Online]. vol. 3, no. 6, pp.854-864, Dec. 2016.
 
         This is an invited paper published by IEEE, the most influential organization for Engineer. Chiang is from Princeton and Zhang is from Cisco. After this paper, more researchers began to notice Fog. I have used this source to introduce, evaluate and query Fog because this is a rare high-quality paper.
 
-[4] J.C. Corbett, J. Dean, M. Epstein, A. Fikes, C. Frost,J.J. Furman, S. Ghemawat, A. Gubarev, C. Heiser, P. Hochschild and W. Hsieh, “Spanner:Google’s globally distributed database”, ACM Transactions on Computer Systems (TOCS). [Online].vol. 31, no. 3,pp. 8, Aug. 2013. Available: https://uk.cloud.yimian.xyz/index.php/s/oxj4EAm6M78GPN8
+[4] J.C. Corbett, J. Dean, M. Epstein, A. Fikes, C. Frost,J.J. Furman, S. Ghemawat, A. Gubarev, C. Heiser, P. Hochschild and W. Hsieh, “Spanner:Google’s globally distributed database”, ACM Transactions on Computer Systems (TOCS). [Online].vol. 31, no. 3,pp. 8, Aug. 2013.
 
         This paper detailly introduced Google Spanner. Google Spanner was designed based on this paper. I include this source because I think Google Spanner is are volutionary attempt of Fog storage. And I have used this as an example when I try to describe the concept of Fog storage.
 
-[5] W. Shi, J. Cao, Q. Zhang, Y. Li and L. Xu, “Edge Computing: Vision and Challenges” in IEEE Internet of Things Journal. [Online]. vol. 3, no. 5, pp. 637-646, Oct. 2016.Available: https://uk.cloud.yimian.xyz/index.php/s/p4QGJA6AWPDKEK4
+[5] W. Shi, J. Cao, Q. Zhang, Y. Li and L. Xu, “Edge Computing: Vision and Challenges” in IEEE Internet of Things Journal. [Online]. vol. 3, no. 5, pp. 637-646, Oct. 2016.
 
         This is a journal from IEEE and have been cited 8422 times. It provides several novel ideas concerning how would the Fog be applied in computing field. I have summarized the Fog control concept from this source and cited their questioning concerning the privacy and security issue of Fog IoT.
 
-[6] A. Yousefpour, G. Ishigaki and J. P. Jue, “Fog Computing: Towards Minimizing Delay in the Internet of Things” 2017 IEEE International Conference on Edge Computing (EDGE), Honolulu, HI. [Online]. 2017, pp. 17-24. Available: https://uk.cloud.yimian.xyz/index.php/s/EsDjHnHHGND2SoD
+[6] A. Yousefpour, G. Ishigaki and J. P. Jue, “Fog Computing: Towards Minimizing Delay in the Internet of Things” 2017 IEEE International Conference on Edge Computing (EDGE), Honolulu, HI. [Online]. 2017, pp. 17-24. 
 
         The authors were from Texas University and they are not famous in Fog field. As it is the only paper which evaluated latency, the most significant trait of Fog IoT, mathematically and got a seemly reliable result, I have used this to support my low latency argument. 
 
-[7] S. Sarkar, S. Chatterjee and S. Misra, “Assessment of the Suitability of Fog Computing in the Context of Internet of Things”in IEEE Transactions on Cloud Computing.[Online]. vol. 6, no. 1, pp. 46-59, Jan.-March 2018. Available: https://uk.cloud.yimian.xyz/index.php/s/m7of3EjZ6Tji7jF
+[7] S. Sarkar, S. Chatterjee and S. Misra, “Assessment of the Suitability of Fog Computing in the Context of Internet of Things”in IEEE Transactions on Cloud Computing.[Online]. vol. 6, no. 1, pp. 46-59, Jan.-March 2018.
 
         This paper was just published a few month ago. It was written by two students and one doctor, which makes it not so authoritative. However, since there are few Fog research, I finally decide to use its modeling result to support that Fog IoT is more environment friendly than Cloud.
 
-[8] G. Zyskind, O. Nathan and A. ‘. Pentland,”Decentralizing Privacy: Using Blockchain to Protect Personal Data” 2015 IEEE Security and Privacy Workshops,San Jose, CA. [Online]. 2015, pp. 180-184. Available: https://uk.cloud.yimian.xyz/index.php/s/7FirJsrD93wzDxN
+[8] G. Zyskind, O. Nathan and A. ‘. Pentland,”Decentralizing Privacy: Using Blockchain to Protect Personal Data” 2015 IEEE Security and Privacy Workshops,San Jose, CA. [Online]. 2015, pp. 180-184. 
 
         This paper was published by IEEE. Zyskind was from MIT, which makes the source seems to be credible. I am interested in the blockchain algorithm which is theoretically absolutely safe as it mentioned and I think it is one ideal method to deal with the security problem of Fog IoT.
 
 ----------------------
 Attachment
-Fog and IoT PPT: https://uk.cloud.yimian.xyz/index.php/s/GbLfqxX2CBTDdRR
+Fog and IoT PPT:
 
 
 {% raw %}</span>{% endraw %}

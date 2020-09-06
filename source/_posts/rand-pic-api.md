@@ -76,7 +76,9 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 
 
 ## 3 参数列表
-
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
 
 名称 | 描述 | 格式 | 示例 
 :---:| :---: | :---: | :---:
@@ -87,6 +89,10 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 **path** | 根据路径提取图片| abs path | `path=wallpaper/img_··mal.jpg`
 **display** | 是否以网页格式展示 | `true`/`false`(default) | `display=true`
 **R18** | 是否显示18禁图片 | `true`/`false`(default) | `R18=true`
+
+{% raw %}
+</div>
+{% endraw %}
 
 ## 4 参数详解
 
@@ -303,6 +309,9 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 
 ## 3 Parameter list
 
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
 
 Name | Description | Format | Example
 :---:| :---: | :---: | :---:
@@ -313,6 +322,10 @@ Name | Description | Format | Example
 **path** | Extract pictures based on path | abs path | `path=wallpaper/img_··mal.jpg`
 **display** | Whether to display in web page format | `true`/`false`(default) | `display=true`
 **R18** | Whether to display 18 prohibited pictures | `true`/`false`(default) | `R18=true`
+
+{% raw %}
+</div>
+{% endraw %}
 
 ## 4 Detailed parameters
 

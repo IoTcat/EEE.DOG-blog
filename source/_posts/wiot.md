@@ -167,6 +167,11 @@ wiot.begin([MyMCU], ()=>{
 ### wiot.client
 
 #### 参数说明
+
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 名称 | 默认值 | 描述
 ----|-------|----
 MAC | "" | 单片机的MAC地址
@@ -188,6 +193,10 @@ MinResearchTime | 5000 | 搜索IP经过一此轮询后间隔时间(毫秒)
 IpScanTimeout | 1 | IP扫描时的Ping检测超时时间(秒)
 pingTimeout | 2 | 心跳Ping检测的超时时间(秒)
 MaxTraceBackTimes | 8 | 判断连接状态所向前追溯的历史心跳个数
+
+{% raw %}
+</div>
+{% endraw %}
 
 
 例如：
@@ -616,6 +625,10 @@ The LED is expected to blink after you execute the code
 
 ## Parameters
 
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 Name | Default Value | Declaration
 ----|-------|----
 MAC | "" | MAC Address of MCU
@@ -636,6 +649,10 @@ MinResearchTime | 5000 | Interval between each polling
 IpScanTimeout | 1 | Ping detection timeout for IP scanning (seconds)
 pingTimeout | 2 | Timeout of Heartbeat Ping detection (seconds)
 MaxTraceBackTimes | 8 | Determine the number of historical heartbeats traced back to the connection state
+
+{% raw %}
+</div>
+{% endraw %}
 
 
 ## Parameters Declaration Example

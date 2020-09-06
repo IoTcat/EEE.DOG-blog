@@ -81,8 +81,10 @@ This article introduces in detail the design ideas, implementation status and de
 
 ### 4.1 相关软件及硬件
 
-!!!
-<table>
+{% raw %}
+
+<div style="overflow:scroll;">
+<table >
 <tr>
     <td style="vertical-align: middle;text-align: center;"><strong>节点名称</strong></td>
     <td style="vertical-align: middle;text-align: center;"><strong>硬件设施</strong></td>
@@ -240,7 +242,8 @@ This article introduces in detail the design ideas, implementation status and de
 </tr>
 
 </table>
-!!!
+</div>
+{% endraw %}
 
 ### 4.2 数据规模预估
 按照生产场景预估，每15分钟产生一组数据集合，一组数据集合约占用253-291字节。按照291计算，每天将新增27.93KB数据。
@@ -389,7 +392,7 @@ LoRa-mqtt是在LoRa-socket基础上对mqtt协议进行的一个简单再现。�
 In order to explore the feasibility of agricultural Internet of Things technology, instructor Alam Mohammed hopes that we can provide a **Available** and **Reliable** Internet of Things system to realize intelligent monitoring and management of farmland. This system will be able to timely detect the parameters related to plant health in the soil and the air, process and store these data (proposed by Alam). At the same time, the automatic control irrigation function (proposed by Caleb) and some data display methods (optional requirements proposed by Alam) are also expected to be provided by this system.
 
 ### 1.2 Positioning
-As it is a small scientific research project designed for the agricultural Internet of Things, the goal of the project is to explore the feasibility of the agricultural Internet of Things, and the vision is to simulate the most common small-scale agricultural Internet of Things application scenarios. Therefore, the positioning of this architecture is ** applicable to most small agricultural IoT projects with sensing, control and display functions**.
+As it is a small scientific research project designed for the agricultural Internet of Things, the goal of the project is to explore the feasibility of the agricultural Internet of Things, and the vision is to simulate the most common small-scale agricultural Internet of Things application scenarios. Therefore, the positioning of this architecture is **applicable to most small agricultural IoT projects with sensing, control and display functions**.
 
 
 
@@ -418,7 +421,8 @@ The functional requirements of this architecture mainly include land data collec
 
 ### 4.1 Related software and hardware
 
-!!!
+{% raw %}
+<div style="overflow:scroll;">
 <table>
 <tr>
     <td style="vertical-align: middle;text-align: center;"><strong>Node name</strong></td>
@@ -577,7 +581,9 @@ The functional requirements of this architecture mainly include land data collec
 </tr>
 
 </table>
-!!!
+</div>
+
+{% endraw %}
 
 ### 4.2 Data size estimation
 According to the production scenario, a data set is generated every 15 minutes, and a data set occupies about 253-291 bytes. According to 291 calculation, 27.93KB of data will be added every day.
