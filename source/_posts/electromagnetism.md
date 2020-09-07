@@ -46,14 +46,27 @@ Maxwell Dafa is good! !
 
 ### 先供上麦克斯韦方程 膜拜膜拜(　o=^•ェ•)o
 
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 $$
-\begin{eqnarray}
-\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0} \\
-\nabla\cdot\vec{B} &=& 0 \\
-\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0}
+$$
+$$
+\nabla\cdot\vec{B} &=& 0
+$$
+$$
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} 
+$$
+$$
 \nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
-\end{eqnarray}
 $$
+
+
+{% raw %}
+</div>
+{% endraw %}
 
 ----------------
 
@@ -123,15 +136,27 @@ To Be Continued...
 
 ### First offer to Maxwell's equation, worship (　o=^•ェ•)o
 
+{% raw %}
+<div style="overflow:scroll;">
+{% endraw %}
+
 $$
-\begin{eqnarray}
-\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0} \\
-\nabla\cdot\vec{B} &=& 0 \\
-\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0}
+$$
+$$
+\nabla\cdot\vec{B} &=& 0
+$$
+$$
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} 
+$$
+$$
 \nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
-\end{eqnarray}
 $$
 
+
+{% raw %}
+</div>
+{% endraw %}
 ----------------
 
 ## Chapter One-Gossian Cullen
