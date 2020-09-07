@@ -45,22 +45,24 @@ Maxwell Dafa is good! !
 {% raw %}<span class=".zh">{% endraw %}
 
 ### 先供上麦克斯韦方程 膜拜膜拜(　o=^•ェ•)o
-
 {% raw %}
 <div style="overflow:scroll;">
 {% endraw %}
 
 $$
-\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0}
+\nabla\cdot\vec{E} = \frac{\rho}{\varepsilon_0}
 $$
+
 $$
-\nabla\cdot\vec{B} &=& 0
+\nabla\cdot\vec{B} = 0
 $$
+
 $$
-\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} 
+\nabla\times\vec{E} = -\frac{\partial B}{\partial t} 
 $$
+
 $$
-\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
+\nabla\times\vec{B} = \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
 $$
 
 
@@ -141,16 +143,19 @@ To Be Continued...
 {% endraw %}
 
 $$
-\nabla\cdot\vec{E} &=& \frac{\rho}{\varepsilon_0}
+\nabla\cdot\vec{E} = \frac{\rho}{\varepsilon_0}
 $$
+
 $$
-\nabla\cdot\vec{B} &=& 0
+\nabla\cdot\vec{B} = 0
 $$
+
 $$
-\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} 
+\nabla\times\vec{E} = -\frac{\partial B}{\partial t} 
 $$
+
 $$
-\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
+\nabla\times\vec{B} = \mu_0\left(\vec{J}+\varepsilon_0\frac{\partial E}{\partial t} \right)
 $$
 
 
