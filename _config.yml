@@ -61,6 +61,12 @@ index_generator:
   per_page: 0
   order_by: -date
 
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
+
 # Category & Tag
 default_category: tech
 category_map:
