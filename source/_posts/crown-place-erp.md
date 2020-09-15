@@ -1,6 +1,6 @@
 ---
 title: 公共开支结算系统
-titleEN: Public expenditure settlement system
+titleEN: Shared Expense Management System
 display: true
 date: 2019-09-22
 categories:
@@ -54,6 +54,7 @@ I studied in the UK and shared with 4 roommates. In order to better control and 
  - 监视各成员间支出不均衡程度，计算方差，并可视化显示
  - 对比本周与上周的开支，给出增减比例
  - 当存在一人支出超出均值阈值，并且存在至少一人支出少于均值阈值，则会邮件这两个人产生一次内部交易
+ - 邮件通知内部交易的双方
  - 当上例中收款人收到款项后，需要到平台确认收到
  - 平台所有历史公共开支及发票可查
 
@@ -83,6 +84,60 @@ mail系统使用[Yimian Mail API](https://www.eee.dog/tech/mail-api.html)快速�
 ![imgbed_ea04ad82](https://api.yimian.xyz/img/?path=imgbed/img_ea04ad82_1080x5082_8_null_normal.jpeg)
 
 ![imgbed_a8b3adb0](https://api.yimian.xyz/img/?path=imgbed/img_a8b3adb0_1080x2160_8_null_normal.jpeg)
+
+-----------------------
+**2020-03-22 更新**   
+
+由于疫情原因，考虑到大家都已撤回中国。为节约服务器费用，停止提供服务。
+
+结合过去半年运行状况，我做了一些分析总结：
+
+## 主要收获
+1.	分析客户真需求的经验
+2.	快速搭建生产环境网站工具的能力
+3.	室友对我能力的认可
+
+
+## 开发方法论
+1.	基于一系列自己过去的项目，3天时间快速立项并投入使用
+2.	仔细研究需求，判断哪些是真需求，哪些是伪需求。
+
+## 遇到的挑战
+
+1.	快速开发，因为大家在抵达英国后已经开始大量花钱买公共用品，因此，急需使用这个系统
+2.	算法一定要稳定可靠，因为是牵扯到大家钱的东西
+3.	本系统的目的是为了更加方便，把会计的工作交给系统来自动化处理。以此一定要在保证公平的前提下，使得大家之间的内部交易的次数尽可能少，且指示明确。
+4.	如何让大家对系统产生信任。
+
+
+## 解决方法
+
+1.	基于大量自己先前的项目。用1天开发成型，1天测试debug，1天优化前端，加入方差，百分比等功能。
+2.	参考记账表，使用了表格模式。每次有新的上传，就会实时计算出新的状态。多次测试，充分验证后才投入使用。
+3.	使用“平衡”的构想，关注差异，当差异过大时使支出最多者和支出最少者产生内部交易。且内部交易值为整数。比如我们生产场景应用的是20磅。
+4.	在系统算法稳定的情况下，参考支付宝的设计。内部交易有两个步骤。首选支出者和收入者都收到邮件，告知给谁（从谁收），多少钱。然后在支出者把钱给收入者后，收入者需要登录网页或从邮件链接进行确认。截至此时，系统才认为一笔内部交易完成。
+
+
+-------------------------------
+**2020-9-8 更新**
+
+基于Ushio用户系统，结合过去半年的运行情况和大家的需求变化，我重构并开发出了新一版的公共支出系统。
+
+
+## 新功能
+
+ - 实现了Ushio用户系统的接入
+ - 用户能够随时注册并新建公共账单
+ - 同一个用户能够同时在多个账单
+ - 用户能够随时加入公共账单
+ - 用户能够随时结算并退出某个公共账单
+ - 更加智能的结算算法
+ - 使用LocalStorage优化了二次访问的速度
+
+
+## 体验
+
+cp-acc现在已经对公众开放，您可以进入其[网站](https://cp-acc.yimian.xyz)进行体验。不过在体验前，您需要先通过ushio用户系统使用您的邮箱登录，以便接收账单消息。
 
 
 
@@ -119,10 +174,65 @@ Directly quote the code of [呓喵酱の图床](https://imgbed.yimian.xyz) with 
 At present, it is simple to implement with additional web pages, waiting for the [ushio-auth project](https://github.com/iotcat/ushio-auth) to complete the unified integration.
 
 ## 3. Appearance
-Nothing to say, show the picture, see for yourself
+
 ![imgbed_ed08c497](https://api.yimian.xyz/img/?path=imgbed/img_ed08c497_1080x6654_8_null_normal.jpeg)
 
 ![imgbed_ea04ad82](https://api.yimian.xyz/img/?path=imgbed/img_ea04ad82_1080x5082_8_null_normal.jpeg)
 
 ![imgbed_a8b3adb0](https://api.yimian.xyz/img/?path=imgbed/img_a8b3adb0_1080x2160_8_null_normal.jpeg)
+
+-----------------------
+**2020-03-22 update**
+
+Due to the epidemic, considering that everyone has withdrawn to China. To save server costs, stop providing services.
+
+Combining the operation status of the past six months, I have made some analysis and summary:
+
+## Main gains
+1. Experience in analyzing the real needs of customers
+2. Ability to quickly build production environment website tools
+3. My roommate's recognition of my ability
+
+
+## Development Methodology
+1. Based on a series of past projects, quickly set up and put into use in 3 days
+2. Carefully study the requirements and determine which are true and which are false.
+
+## Challenges encountered
+
+1. Rapid development, because everyone has started to spend a lot of money on public goods after arriving in the UK, so there is an urgent need to use this system
+2. The algorithm must be stable and reliable, because it involves everyone's money
+3. The purpose of this system is to make it more convenient to delegate the accounting work to the system for automated processing. In this way, the number of internal transactions between everyone must be as few as possible and the instructions must be clear under the premise of ensuring fairness.
+4. How to make everyone trust the system.
+
+
+## Solution
+
+1. Based on a large number of own previous projects. It takes 1 day to develop and form, 1 day to test debug, 1 day to optimize the front-end, add variance, percentage and other functions.
+2. Refer to the accounting table and use the table mode. Every time there is a new upload, the new status will be calculated in real time. Tested many times and put into use after full verification.
+3. Use the concept of "balance" and pay attention to differences. When the differences are too large, make internal transactions between those who spend the most and those who spend the least. And the internal transaction value is an integer. For example, our production scenario uses 20 pounds.
+4. When the system algorithm is stable, refer to the design of Alipay. There are two steps to internal transactions. Both the first-choice payer and the earner receive emails telling to whom (from whom) and how much money. Then after the payer gives the money to the earner, the earner needs to log in to the web page or confirm it from the email link. As of this time, the system considers that an internal transaction is complete.
+
+
+-------------------------------
+**2020-9-8 update**
+
+Based on the Ushio user system, combined with the operation of the past six months and the changes in everyone's needs, I reconstructed and developed a new version of the public expenditure system.
+
+
+## New features
+
+ - Achieved access to Ushio user system
+ - Users can register and create new public bills at any time
+ - The same user can be in multiple bills at the same time
+ - Users can join the public bill at any time
+ - Users can settle and exit a public bill at any time
+ - Smarter settlement algorithm
+ - Use LocalStorage to optimize the speed of secondary access
+
+
+## Experience
+
+cp-acc is now open to the public, you can go to its [website](https://cp-acc.yimian.xyz) to experience it. But before the experience, you need to log in with your email address through the ushio user system in order to receive bill messages.
+
 {% raw %}</span>{% endraw %}

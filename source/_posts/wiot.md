@@ -46,8 +46,6 @@ The Internet of Things system based on NodeJS, combined with D1 MINI microcontro
 {% raw %}<span class=".zh">{% endraw %}
 
 
-> 正式开发文档见[**这里**](https://wiot.yimian.xyz)
-
 ### wIoT for NodeJS
 适用于NodeJS的wIoT服务器控制组件，轻松物联
 
@@ -71,6 +69,9 @@ The Internet of Things system based on NodeJS, combined with D1 MINI microcontro
 
 
 # 使用方法
+
+> 正式开发文档见[**这里**](https://wiot.yimian.xyz/#/home)
+
 
 ## 先觉条件
  - 拥有烧录好[wIoT固件](https://wiot-ota.yimian.xyz/get.php)的**D1 MINI**单片机
@@ -129,7 +130,7 @@ wiot.begin([MyMCU], ()=>{ // 第一个参数为要等待的单片机对象数组
 ### 开始执行
 在项目文件夹中打开命令行，输入以下指令:
 
-````shell
+````bash
 node app.js
 ````
 
@@ -511,11 +512,16 @@ gugu.print("This is from wIoT!!");
 
 ```
 
+
+
+
 {% raw %}</span>{% endraw %}
 
 {% raw %}<span class=".en">{% endraw %}
 
 # Quick Start
+
+This project aims to help web developers who are not familiar with firmware programming to implement their own IoT applications. You only need a server inside the network (such as Raspberry Pi) and several MCUs (single-chip computers) that support networking (via serial port, WiFi, LoRa, Bluetooth, Zigbee, etc.), you can easily create and manage your own Internet of Things Cluster.
 
 ## Current Support devices
  - D1 MINI
@@ -532,7 +538,7 @@ For **windows** user, you can follow the instruction in [this website](https://w
 
 After install Node.js and configure npm successfully, you should then use npm to download wIoT package by enter following command in your command window.
 
-```shell
+```bash
 npm install wiot
 ```
 
@@ -705,8 +711,7 @@ var MyMCU = new wiot.client({
 - `disConnected`  Disconnect from MCU
 - `reConnected`   Connection with MCU restored
 
-```
-js
+```js
 var MCU = new wiot.client({"MAC": "xx:xx:xx:xx:xx:xx"});
 
 MCU.on('disConnected', function () {
