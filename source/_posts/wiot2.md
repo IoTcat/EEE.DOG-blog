@@ -107,7 +107,7 @@ wiot节点使用分布式组网。在路由器信号较强的地方，master节�
 #### **认证**
 
 ![射频指纹识别[2]](https://api.yimian.xyz/img/?path=imgbed/img_d184ff2_1442x502_8_null_normal.jpeg)
-wiot节点支持使用**射频指纹识别**[[2]](https://ieeexplore.ieee.org/document/8715341)来实现下游通信认证。此方法使用esp8266的RSSI函数以及scan返回参数。在下游设备试图接入网络时，上游设备将搜集指纹信息并向服务器汇报。服务器将指纹与数据库存储的先前版本进行比对，并作出是否允许入网的决策。
+wiot节点支持使用**射频指纹识别**[[2]](https://ieeexplore.ieee.org/document/9149584)来实现下游通信认证。此方法使用esp8266的RSSI函数以及scan返回参数。在下游设备试图接入网络时，上游设备将搜集指纹信息并向服务器汇报。服务器将指纹与数据库存储的先前版本进行比对，并作出是否允许入网的决策。
 
 ### 云模块
 
@@ -239,7 +239,7 @@ As shown in the figure above, the two master nodes close to the router are autom
 
 ![Radio frequency fingerprint identification[2]](https://api.yimian.xyz/img/?path=imgbed/img_d184ff2_1442x502_8_null_normal.jpeg)
 
-Wiot nodes support the use of **RF Fingerprint Recognition**[[2]](https://ieeexplore.ieee.org/document/8715341) to achieve downstream communication authentication. This method uses the RSSI function of esp8266 and scan return parameters. When the downstream device attempts to access the network, the upstream device will collect fingerprint information and report to the server. The server compares the fingerprint with the previous version stored in the database and makes a decision whether to allow access to the network.
+Wiot nodes support the use of **RF Fingerprint Recognition**[[2]](https://ieeexplore.ieee.org/document/9149584) to achieve downstream communication authentication. This method uses the RSSI function of esp8266 and scan return parameters. When the downstream device attempts to access the network, the upstream device will collect fingerprint information and report to the server. The server compares the fingerprint with the previous version stored in the database and makes a decision whether to allow access to the network.
 
 ### Cloud Module
 
