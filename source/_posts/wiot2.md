@@ -69,6 +69,33 @@ wiot，一个基于NodeJS的分布式物联网操作系统。
 
 > 待进行，计划当做FYP项目
 
+
+----------------------
+
+## 架构想法
+
+在设计物联网系统时，我一直有一个愿景。历史必然性。打造手足。
+
+wiot的目标是提供一套
+系统架构在分类上分为静态的环境和动态的用户。实现上分为模块，服务和程序。
+
+### 模块
+
+类似于计算机操作系统中的驱动，模块负责将物理层面上的各种功能，比如led照明，抽象为操作系统层面的标准接口。
+
+
+### 服务
+
+服务是运行在边缘的docker中的守护进程。开发者通过调用模块，实现编写服务，实现各种各样的标准功能。
+
+### 程序
+
+程序是由用户定义的一套自定义逻辑，用于打造自定义场景。结合地理围栏公共服务LIS，调用环境服务提供的标准接口。
+
+
+
+-------------------------
+
 ## 支持的开发版
  - [NodeMCU](https://www.nodemcu.com/index_en.html)
 
@@ -145,7 +172,7 @@ wiot节点支持使用**射频指纹识别**[[2]](https://ieeexplore.ieee.org/do
  - `wiot clone <host:user/project>`将项目从云模块克隆到本地
  - `wiot pull`使用远程代码覆盖本地代码
  - `wiot push`将当前文件夹wiot程序部署到云模块
- - `wiot ls`显示当前所有节点
+ - `wiot node ls`显示当前所有节点
  - `wiot map [nodeID]`显示某节点的连接路径
  - `wiot log [nodeID] [--head=<number>|--tail=<number>]`查看某节点的日志
  - `wiot stop`停止wiot服务
@@ -165,11 +192,37 @@ wiot节点支持使用**射频指纹识别**[[2]](https://ieeexplore.ieee.org/do
  - `wiot debug dsleep <nodeID> <millisecond>`debug模式下设置某节点深度休眠多少毫秒
  - `wiot debug reconnect [nodeID]`debug模式下重新组网或断开重连某个节点
  - `wiot debug setphymode <nodeID> <b|g|n>`debug模式下配置节点WiFi协议为802.11b|g|n
+ - `wiot module search [keyword]`本地和联网搜索可用module类型
+ - `wiot module install <moduleName|path>`安装并配置某个模块
+ - `wiot module remove <moduleId>`卸载模块
+ - `wiot module ls`显示所有已安装模块
+ - `wiot search [keyword]`本地和联网搜索可用程序
+ - `wiot install <programName|path>`安装并配置某个程序
+ - `wiot remove <programID>`卸载某个程序
+ - `wiot ls`显示所有程序
     ···
+
+### 目录结构
+```
+|
+|---.wiot/ wiot系统目录
+|---wiot.yaml wiot系统配置文件
+|---nodes/ 节点配置文件
+|---modules/ 模组配置文件
+|---programs/ 程序配置文件
+|---local/  本地代码文件
+```
 
 ### 常用API
 > 待设计，请参考[一轮开发wiot文档](https://wiot.yimian.xyz/#/home)
 
+ - 事件
+ - cron定时任务
+ 
+
+### 挑战
+
+ - 错误（设备离线）处理
 
 
 {% raw %}</span>{% endraw %}

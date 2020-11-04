@@ -106,7 +106,7 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 ***bing每日壁纸***
  - `GET/POST /img?type=wallpaper`
  - 图片来源: Bing每日壁纸
- - 示例：[https://api.yimian.xyz/img?type=moe](https://api.yimian.xyz/img?type=wallpaper)
+ - 示例：[https://api.yimian.xyz/img?type=wallpaper](https://api.yimian.xyz/img?type=wallpaper)
 > 每日自动更新中
 
 ***二次元头像***
