@@ -243,6 +243,8 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 ### 4.6 path
 使用绝对路径直接提取图片，优先级高于type，**效率最高**。
 
+> 请前往[呓喵酱の图库](https://img.yimian.xyz/)获取图片的path!
+
  - `GET/POST /img?path=xx/xx.xx`
  - 路径格式：`种类/图片文件名`
  - 路径格式示例：`imgbed/img_529745e0_900x900_8_null_normal.jpeg`
@@ -253,7 +255,7 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 是否显示18禁图片，默认为false。
 
 - `GET/POST /img?type=xx&R18=true`
- - 描述：随机提取xx类别中包含R18内容在内的图片
+ - 描述：是否解除对R18的限制，随机提取xx类别中包含R18图片在内的所有图片
  - 示例：[https://api.yimian.xyz/img/?type=koino&R18=true](https://api.yimian.xyz/img/?type=koino&R18=true)
 
 
@@ -271,7 +273,14 @@ This API is based on Huawei Cloud Object Storage and uses Huawei CDN Cloud accel
 }
 ```
 
+
 > 每台设备每天**全局**调用上限500次!！
+
+
+-----------------
+**CHANGELOG:**
+ - `2021-1-23`: 修改R18参数说明，在path方法中添加图库链接 
+
 
 
 {% raw %}</span>{% endraw %}
@@ -475,7 +484,7 @@ Each category has its own id system, and different image ids under the same cate
 
 ### 4.6 path
 Use absolute path to directly extract pictures, priority is higher than type, **highest efficiency**.
-
+> Please go to [呓喵酱の Gallery](https://img.yimian.xyz/) to get the path of the picture!
  - `GET/POST /img?path=xx/xx.xx`
  - Path format: `Type/Picture File Name`
  - Example of path format: `imgbed/img_529745e0_900x900_8_null_normal.jpeg`
@@ -486,7 +495,7 @@ Use absolute path to directly extract pictures, priority is higher than type, **
 Whether to display 18 prohibited pictures, the default is false.
 
 - `GET/POST /img?type=xx&R18=true`
- - Description: Randomly extract pictures containing R18 content in xx category
+ - Description: Whether to lift the restriction on R18, randomly extract all pictures including R18 pictures in xx category
  - Example: [https://api.yimian.xyz/img/?type=koino&R18=true](https://api.yimian.xyz/img/?type=koino&R18=true)
 
 
