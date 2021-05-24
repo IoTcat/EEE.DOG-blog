@@ -42,6 +42,9 @@ Ushio V2ray Instruction..
 
 {% raw %}<span class=".zh">{% endraw %}
 
+> 本服务仅向以学术研究为目的学生提供！
+> 本服务非盈利，但可能会根据您的使用情况收取少许费用，来平摊服务器的费用！
+
 ## 流程总览
 
  - 用户注册
@@ -50,6 +53,8 @@ Ushio V2ray Instruction..
 ## 用户注册
 
 在开始安装软件前，请先前往[https://v2ray.yimian.xyz/](https://v2ray.yimian.xyz/)使用手机号进行账户注册。
+
+> 如确有使用需求，请在注册后将您的学生身份证明和注册手机号发送至[i@iotcat.me](mailto:i@iotcat.me)，在我检查过您的需求合法性后将赋予您使用权限！
 
 ## v2ray软件安装
 
