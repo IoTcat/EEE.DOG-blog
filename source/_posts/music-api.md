@@ -53,28 +53,28 @@ The packaged NetEase Cloud Music API, welcome everyone to use ━(*｀∀´*)ノ
 > ![Playlist Id](https://api.yimian.xyz/img/?path=imgbed/img_dfeddac_552x34_8_null_normal.jpeg)
 > ![Single Song Id](https://api.yimian.xyz/img/?path=imgbed/img_527a5ea_491x37_8_null_normal.jpeg)
 
+
+> 2021-6-23起"我喜欢的音乐"歌单不再受支持。如有需求，请创建一个公开的歌单，并将“我喜欢的音乐”中的歌曲移入。
 ## 请求地址
 ````
 GET https://api.yimian.xyz/msc/
 ````
 
 ## 示例
-````
-//获取id为36308263的歌曲信息
+### 获取id为36308263的歌曲信息
 https://api.yimian.xyz/msc/?type=single&id=36308263
-//获取id为808097971的歌单所有歌曲信息
-https://api.yimian.xyz/msc/?type=playlist&id=808097971
-//获取808097971歌单前14首歌曲信息
-https://api.yimian.xyz/msc/?type=playlist&id=808097971&limit=14
-//随机从808097971歌单获取14首歌曲信息
-https://api.yimian.xyz/msc/?type=playlist&id=808097971&limit=14&random=true
-//获取36308263的mp3音乐文件
+### 获取id为2675649523的歌单所有歌曲信息
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523
+### 获取2675649523歌单前14首歌曲信息
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523&limit=14
+### 随机从2675649523歌单获取14首歌曲信息
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523&limit=14&random=true
+### 获取36308263的mp3音乐文件
 https://api.yimian.xyz/msc/?type=url&id=36308263
-//获取id为3384296792803059的封面图片
+### 获取id为3384296792803059的封面图片
 https://api.yimian.xyz/msc/?type=cover&id=3384296792803059
-//获取36308263歌曲的lrc歌词文件
+### 获取36308263歌曲的lrc歌词文件
 https://api.yimian.xyz/msc/?type=lrc&id=36308263
-````
 
 ## 返回值(json格式)
 
@@ -137,12 +137,12 @@ GET https://api.yimian.xyz/msc/
 ````
 //Get song information with id 36308263
 https://api.yimian.xyz/msc/?type=single&id=36308263
-//Get all song information of the playlist with id 808097971
-https://api.yimian.xyz/msc/?type=playlist&id=808097971
-//Get information about the first 14 songs of the 808097971 playlist
-https://api.yimian.xyz/msc/?type=playlist&id=808097971&limit=14
-//Get 14 song information randomly from 808097971 playlist
-https://api.yimian.xyz/msc/?type=playlist&id=808097971&limit=14&random=true
+//Get all song information of the playlist with id 2675649523
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523
+//Get information about the first 14 songs of the 2675649523 playlist
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523&limit=14
+//Get 14 song information randomly from 2675649523 playlist
+https://api.yimian.xyz/msc/?type=playlist&id=2675649523&limit=14&random=true
 //Get 36308263 mp3 music file
 https://api.yimian.xyz/msc/?type=url&id=36308263
 //Get the cover image with id 3384296792803059
