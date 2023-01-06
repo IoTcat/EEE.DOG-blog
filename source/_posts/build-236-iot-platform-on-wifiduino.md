@@ -75,7 +75,7 @@ Re-build the 236 IoT underlying platform and control it through Blinker mobile p
 ## 最后
 
 最后附上两个板子的代码，，还会更新的哦//祝生活愉快啦~ 
-代码：https://uk.cloud.yimian.xyz/index.php/s/YbPwdkt2mANYoiS
+代码：https://github.com/IoTcat/archive/tree/b43dd5c01c3b38cde97bbdbb87bfc51847303e58/Arduino_project/236project
 
 --------------------
 
@@ -94,14 +94,14 @@ Re-build the 236 IoT underlying platform and control it through Blinker mobile p
 
 ## 2019.6.12更新
 
-稳定运行611天18小时32分钟，正式退役！
+稳定运行611天18小时32分钟，因我要搬离宿舍，正式退役！
 ![236-iot](https://api.yimian.xyz/img/?path=imgbed/img_39e7f50_3968x1984_8_null_normal.jpeg)
 
 -------------
 已完结
 
 
-  [1]: https://github.com/iotgod/wIoT
+  [1]: https://github.com/iotcat/wIoT
 
 {% raw %}</span>{% endraw %}
 
@@ -138,7 +138,7 @@ In the future, it is planned to be implemented gradually-Sensing layer: Recognit
 ## At last
 
 Finally, the codes of the two boards are attached, and they will be updated.//Happy life~
-Code: https://uk.cloud.yimian.xyz/index.php/s/YbPwdkt2mANYoiS
+Code: https://github.com/IoTcat/archive/tree/b43dd5c01c3b38cde97bbdbb87bfc51847303e58/Arduino_project/236project
 
 --------------------
 
